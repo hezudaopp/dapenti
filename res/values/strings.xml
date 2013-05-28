@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">喷嚏网</string>
+    <string name="thanks">喷嚏网-阅读、发现和分享：\n8小时外的健康生活！</string>
+    
+    <!-- 菜单 -->
+    <string name="menu_settings">设置</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_quit">退出</string>
+    <string name="menu_comment">评论</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_clear">清除当前频道数据</string>
+    <string name="menu_fav">添加收藏</string>
+    <string name="menu_cancel_fav">取消收藏</string>
+    <string name="menu_copy">复制段子或链接</string>
+    <!-- 菜单 -->
+    
+    <!-- 频道 -->
+    <string name="tugua">图卦</string>
+    <string name="xilei">铂程</string>
+    <string name="agile">乐活</string>
+    <string name="caijing">财经</string>
+    <string name="tupian">意图</string>
+    <string name="kids">教育</string>
+    <string name="dapenti">流光</string>
+    <string name="musics">音乐</string>
+    <string name="duanzi">段子</string>
+    <string name="fav">收藏</string>
+    <string name="tugua_value">1</string>
+    <string name="duanzi_value">2</string>
+    <string name="tupian_value">3</string>
+    <string name="fav_value">4</string>
+    <!-- 频道 -->
+    
+    <!-- 横竖屏     -->
+    <string name="auto">自动</string>
+    <string name="landscape">始终横屏</string>
+    <string name="portrait">始终竖屏</string>
+    <string name="auto_value">1</string>
+    <string name="landscape_value">2</string>
+    <string name="portrait_value">3</string>
+    <!-- 横竖屏     -->
+	
+    <!-- 下拉刷新，点击加载更多效果 -->
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开刷新</string>
+    <string name="pull_to_refresh_refreshing_label">奋力更新中&#8230;</string>
+    <string name="pull_to_more_label">点我加载更多</string>
+    <string name="pull_to_more_tap_label">人家还要嘛</string>
+    <string name="pull_to_more_getting_label">卖力加载中&#8230;</string>
+    <!-- 下拉刷新，点击加载更多效果 -->
+    
+    <!-- 设置 -->
+    <string name="load_picture_setting">是否载入图片</string>
+    <string name="load_picture_wifi_key">load_picture_wifi</string>
+    <string name="load_picture_wifi">只在wifi连接时加载图片</string>
+    <string name="load_picture_whether_key">load_picture_whether</string>
+    <string name="load_picture_whether">载入图片</string>
+    
+    <string name="channel_setting_title">频道设置</string>
+    <string name="default_channel_setting_title">默认频道设置</string>
+    <string name="default_channel_setting_select">请选择默认频道</string>
+    <string name="channel_key">channel</string>
+    
+    <string name="view_setting_title">浏览模式</string>
+    <string name="default_orientation_setting_title">横竖屏选择</string>
+    <string name="default_orientation_setting_select">请选择横竖屏模式</string>
+    <string name="orientation_key">oriental</string>
+</resources>

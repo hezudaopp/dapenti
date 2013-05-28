@@ -1,0 +1,131 @@
+<!-- <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.nju.dapenti"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+    </application>
+    
+    
+
+</manifest>
+ -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="cn.edu.nju.dapenti"
+
+    android:versionCode="1"
+
+    android:versionName="1.1" >
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+	<!-- SDK 2.1鏂板鏉冮檺锛屽缓璁娇鐢?
+
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+	-->
+
+	
+
+    <uses-sdk
+
+        android:minSdkVersion="7"
+
+        android:targetSdkVersion="16" />
+
+
+
+    <application
+
+        android:icon="@drawable/ic_launcher"
+
+        android:label="@string/app_name"
+
+        android:theme="@style/AppTheme"
+
+        >
+
+        <!-- 娉ㄥ唽AppActivity -->
+
+		<activity android:name="com.baidu.mobads.AppActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+
+		<!-- 鎮ㄤ粠鐧惧害绉诲姩鑱旂洘缃戠珯鑾峰彇鐨凙PPSID -->
+
+		<meta-data android:name="BaiduMobAd_APP_ID" android:value="b005407b" /> 
+
+		<!-- 鎮ㄤ粠鐧惧害绉诲姩鑱旂洘缃戠珯鑾峰彇鐨勮璐瑰悕 -->
+
+		<meta-data android:name="BaiduMobAd_APP_SEC" android:value="b005407b" />
+
+        <activity android:icon="@drawable/ic_launcher"
+
+                  android:screenOrientation="portrait"
+
+                  android:name=".SplashScreen"
+
+                  android:theme="@android:style/Theme.NoTitleBar">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+
+            android:name=".RSSReader"
+
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity 
+
+            android:name=".ShowDescription"
+
+            android:configChanges="orientation|keyboardHidden">
+        </activity>
+
+        <activity android:name=".Settings">  
+
+		</activity>
+
+		<activity 
+
+		    android:name=".VerticalTabHost"
+
+		    android:label="@string/thanks">  
+
+		</activity>
+
+    </application>
+
+
+
+</manifest>

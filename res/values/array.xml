@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!-- 设置界面需要要到的数组 -->  
+    <string-array name="channel_entry">  
+        <item>@string/tugua</item>
+        <item>@string/duanzi</item>
+        <item>@string/tupian</item>
+        <item>@string/fav</item>
+        <!-- 
+        <item>@string/xilei</item>
+        <item>@string/agile</item>
+        <item>@string/caijing</item>
+        <item>@string/kids</item>
+        <item>@string/dapenti</item>
+        <item>@string/musics</item>
+         -->
+    </string-array>  
+    <string-array name="channel_value">  
+        <item>@string/tugua_value</item>
+        <item>@string/duanzi_value</item>
+        <item>@string/tupian_value</item>
+        <item>@string/fav_value</item>
+        <!-- 
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+         -->
+    </string-array>  
+    
+     <!-- 设置界面需要要到的数组 -->  
+    <string-array name="orientation_entry">  
+        <item>@string/auto</item>
+        <item>@string/landscape</item>
+        <item>@string/portrait</item>
+    </string-array>  
+    <string-array name="orientation_value">  
+        <item>@string/auto_value</item>
+        <item>@string/landscape_value</item>
+        <item>@string/portrait_value</item>
+    </string-array>  
+</resources>
