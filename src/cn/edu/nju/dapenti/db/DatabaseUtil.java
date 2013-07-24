@@ -18,7 +18,8 @@ import android.database.sqlite.SQLiteDatabase;
 import cn.edu.nju.dapenti.utils.StringUtil;
 
 public class DatabaseUtil {
-	private DatabaseHelper databaseHelper;
+	private static DatabaseHelper databaseHelper = null;
+//	private static DatabaseHelper mInstance = null;
 	// Define a projection that specifies which columns from the database
 	// you will actually use after this query.
 	private String[] feedProjection = {
@@ -40,6 +41,30 @@ public class DatabaseUtil {
 	    RSSItemEntry.COLUMN_NAME_CONTENT,
 	    RSSItemEntry.COLUMN_NAME_FAVTIME
 	    };
+	
+	public static DatabaseHelper getInstance(Context ctx) {
+		// Use the application context, which will ensure that you
+		// don't accidentally leak an Activity's context.
+		// See this article for more information: http://bit.ly/6LRzfx
+		if (databaseHelper == null) {
+			databaseHelper = new DatabaseHelper(ctx.getApplicationContext());
+		}
+		return databaseHelper;
+	}
+	
+	private DatabaseUtil(Context context){
+//		this.databaseHelper = new DatabaseHelper(context);
+		// Use the application context, which will ensure that you
+		// don't accidentally leak an Activity's context.
+		// See this article for more information: http://bit.ly/6LRzfx
+		if (databaseHelper == null) {
+			databaseHelper = new DatabaseHelper(context.getApplicationContext());
+		}
+	}
+	
+	public static DatabaseUtil initDatabase (Context context) {
+		return new DatabaseUtil(context);
+	}
 	
 	private void closeDatabase (SQLiteDatabase db) {
 		if(db != null && db.isOpen()) db.close();
@@ -400,13 +425,7 @@ public class DatabaseUtil {
 		return item;
 	}
 	
-	private DatabaseUtil(Context context){
-		this.databaseHelper = new DatabaseHelper(context);
-	}
 	
-	public static DatabaseUtil initDatabase (Context context) {
-		return new DatabaseUtil(context);
-	}
 	
 	private void setItem (RSSItem item, Cursor c) {
 		RSSItemInterface itemInterface;

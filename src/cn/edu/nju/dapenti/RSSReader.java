@@ -187,11 +187,12 @@ OnPullDownListener, OnItemLongClickListener, OnCreateContextMenuListener {
             public void run() {
             	Looper.prepare();
             	Message msg = mUIHandler.obtainMessage(WHAT_DID_REFRESH);
-            	if (_urlToRssFeed != null) {
-            		_feed = getNewFeed(_urlToRssFeed);
-                } else { //fav feed
-                	_feed = getFirstFavFeed();
-                }
+            	_feed = getNewFeed(_urlToRssFeed);
+//            	if (_urlToRssFeed != null) {
+//            		_feed = getNewFeed(_urlToRssFeed);
+//                } else { //fav feed
+//                	_feed = getFirstFavFeed();
+//                }
             	if (_feed != null) { 
                     msg.obj = _feed;
             	}
@@ -398,21 +399,26 @@ OnPullDownListener, OnItemLongClickListener, OnCreateContextMenuListener {
 		}
     }
     
-    protected RSSFeed getNewFeed (String urlToRssFeed) {
-    	// instantiate our handler
-    	if (!NetworkUtil.isNetworkAvailable(this)) {
-    		Toast.makeText(this, "无可用网络，还是看看本地数据吧。", Toast.LENGTH_SHORT).show();
-    		return null;
+    //fix fav fc bug using synchronized
+    synchronized protected RSSFeed getNewFeed (String urlToRssFeed) {
+    	if (urlToRssFeed != null) {
+	    	// instantiate our handler
+	    	if (!NetworkUtil.isNetworkAvailable(this)) {
+	    		Toast.makeText(this, "无可用网络，还是看看本地数据吧。", Toast.LENGTH_SHORT).show();
+	    		return null;
+	    	}
+	    	try {
+	    		return _theRssHandlerFeed.getNewFeed(urlToRssFeed, _feedPubdate, _feedid, databaseUtil);
+			} catch (XmlPullParserException e) {
+				Toast.makeText(this, "转化数据格式出了问题。", Toast.LENGTH_SHORT).show();
+				return null;
+			} catch (IOException e) {
+				Toast.makeText(this, "网络不给力，获取数据失败了。", Toast.LENGTH_SHORT).show();
+				return null;
+			}
+    	} else {
+    		return getFirstFavFeed();
     	}
-    	try {
-    		return _theRssHandlerFeed.getNewFeed(urlToRssFeed, _feedPubdate, _feedid, databaseUtil);
-		} catch (XmlPullParserException e) {
-			Toast.makeText(this, "转化数据格式出了问题。", Toast.LENGTH_SHORT).show();
-			return null;
-		} catch (IOException e) {
-			Toast.makeText(this, "网络不给力，获取数据失败了。", Toast.LENGTH_SHORT).show();
-			return null;
-		}
     }
     
     protected RSSFeed getMoreFeed(String urlToRssFeed)

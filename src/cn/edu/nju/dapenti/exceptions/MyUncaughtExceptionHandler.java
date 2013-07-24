@@ -7,6 +7,9 @@ import java.lang.Thread.UncaughtExceptionHandler;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.net.Uri;
 import android.os.Build;
 
@@ -34,6 +37,15 @@ public class MyUncaughtExceptionHandler implements UncaughtExceptionHandler {
 		PrintWriter pw = new PrintWriter(sw);
 		throwable.printStackTrace(pw);
 		StringBuilder sb = new StringBuilder();
+		sb.append("Dapenti version name is: ");
+		PackageManager pm = mContext.getPackageManager();  
+        PackageInfo pi;
+		try {
+			pi = pm.getPackageInfo(mContext.getPackageName(), 0);
+			sb.append(pi.versionName);
+		} catch (NameNotFoundException e) {
+			e.printStackTrace();
+		}
 		sb.append("Version code is ");
 		sb.append(Build.VERSION.SDK_INT + "\n");// 设备的Android版本号
 		sb.append("Model is ");
