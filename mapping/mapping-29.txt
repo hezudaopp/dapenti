@@ -1762,22 +1762,22 @@ android.support.v4.widget.ViewDragHelper$Callback -> android.support.v4.widget.a
     boolean tryCaptureView(android.view.View,int) -> a
     304:304:int clampViewPositionHorizontal(android.view.View,int,int) -> a
     319:319:int clampViewPositionVertical(android.view.View,int,int) -> b
-net.fred.feedex.Constants -> net.fred.feedex.a:
+cn.edu.nju.dapenti.Constants -> cn.edu.nju.dapenti.a:
     android.app.NotificationManager NOTIF_MGR -> a
     java.text.DateFormat DATE_FORMAT -> b
     java.text.DateFormat TIME_FORMAT -> c
-net.fred.feedex.MainApplication -> net.fred.feedex.MainApplication:
+cn.edu.nju.dapenti.MainApplication -> cn.edu.nju.dapenti.MainApplication:
     android.content.Context context -> a
     33:37:void onCreate() -> onCreate
     40:40:android.content.Context getContext() -> a
-net.fred.feedex.activity.EditFeedActivity -> net.fred.feedex.activity.EditFeedActivity:
+cn.edu.nju.dapenti.activity.EditFeedActivity -> cn.edu.nju.dapenti.activity.EditFeedActivity:
     java.lang.String[] FEED_PROJECTION -> a
     android.widget.EditText mNameEditText -> b
     android.widget.EditText mUrlEditText -> c
     android.widget.CheckBox mRetrieveFulltextCb -> d
     android.widget.ListView mFiltersListView -> e
     java.lang.String mPreviousName -> f
-    net.fred.feedex.adapter.FiltersCursorAdapter mFiltersCursorAdapter -> g
+    cn.edu.nju.dapenti.adapter.FiltersCursorAdapter mFiltersCursorAdapter -> g
     android.view.ActionMode$Callback mFilterActionModeCallback -> h
     113:176:void onCreate(android.os.Bundle) -> onCreate
     180:215:void onDestroy() -> onDestroy
@@ -1792,72 +1792,72 @@ net.fred.feedex.activity.EditFeedActivity -> net.fred.feedex.activity.EditFeedAc
     330:331:void onClickCancel(android.view.View) -> onClickCancel
     442:525:void onClickSearch(android.view.View) -> onClickSearch
     1:1:void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
-    109:109:net.fred.feedex.adapter.FiltersCursorAdapter access$1(net.fred.feedex.activity.EditFeedActivity) -> a
-    106:106:android.widget.ListView access$2(net.fred.feedex.activity.EditFeedActivity) -> b
-    333:333:android.view.ActionMode$Callback access$3(net.fred.feedex.activity.EditFeedActivity) -> c
-    104:104:android.widget.EditText access$4(net.fred.feedex.activity.EditFeedActivity) -> d
-    104:104:android.widget.EditText access$5(net.fred.feedex.activity.EditFeedActivity) -> e
-net.fred.feedex.activity.EditFeedActivity$1 -> net.fred.feedex.activity.a:
-    net.fred.feedex.activity.EditFeedActivity this$0 -> a
+    109:109:cn.edu.nju.dapenti.adapter.FiltersCursorAdapter access$1(cn.edu.nju.dapenti.activity.EditFeedActivity) -> a
+    106:106:android.widget.ListView access$2(cn.edu.nju.dapenti.activity.EditFeedActivity) -> b
+    333:333:android.view.ActionMode$Callback access$3(cn.edu.nju.dapenti.activity.EditFeedActivity) -> c
+    104:104:android.widget.EditText access$4(cn.edu.nju.dapenti.activity.EditFeedActivity) -> d
+    104:104:android.widget.EditText access$5(cn.edu.nju.dapenti.activity.EditFeedActivity) -> e
+cn.edu.nju.dapenti.activity.EditFeedActivity$1 -> cn.edu.nju.dapenti.activity.a:
+    cn.edu.nju.dapenti.activity.EditFeedActivity this$0 -> a
     339:341:boolean onCreateActionMode(android.view.ActionMode,android.view.Menu) -> onCreateActionMode
     348:348:boolean onPrepareActionMode(android.view.ActionMode,android.view.Menu) -> onPrepareActionMode
     355:429:boolean onActionItemClicked(android.view.ActionMode,android.view.MenuItem) -> onActionItemClicked
     436:438:void onDestroyActionMode(android.view.ActionMode) -> onDestroyActionMode
-    333:333:net.fred.feedex.activity.EditFeedActivity access$0(net.fred.feedex.activity.EditFeedActivity$1) -> a
-net.fred.feedex.activity.EditFeedActivity$1$1 -> net.fred.feedex.activity.b:
-    net.fred.feedex.activity.EditFeedActivity$1 this$1 -> a
+    333:333:cn.edu.nju.dapenti.activity.EditFeedActivity access$0(cn.edu.nju.dapenti.activity.EditFeedActivity$1) -> a
+cn.edu.nju.dapenti.activity.EditFeedActivity$1$1 -> cn.edu.nju.dapenti.activity.b:
+    cn.edu.nju.dapenti.activity.EditFeedActivity$1 this$1 -> a
     android.widget.EditText val$filterText -> b
     android.widget.CheckBox val$regexCheckBox -> c
     android.widget.RadioButton val$applyTitleRadio -> d
     long val$filterId -> e
     380:398:void onClick(android.content.DialogInterface,int) -> onClick
-    377:377:net.fred.feedex.activity.EditFeedActivity$1 access$0(net.fred.feedex.activity.EditFeedActivity$1$1) -> a
-net.fred.feedex.activity.EditFeedActivity$1$1$1 -> net.fred.feedex.activity.c:
-    net.fred.feedex.activity.EditFeedActivity$1$1 this$2 -> a
+    377:377:cn.edu.nju.dapenti.activity.EditFeedActivity$1 access$0(cn.edu.nju.dapenti.activity.EditFeedActivity$1$1) -> a
+cn.edu.nju.dapenti.activity.EditFeedActivity$1$1$1 -> cn.edu.nju.dapenti.activity.c:
+    cn.edu.nju.dapenti.activity.EditFeedActivity$1$1 this$2 -> a
     android.widget.EditText val$filterText -> b
     android.widget.CheckBox val$regexCheckBox -> c
     android.widget.RadioButton val$applyTitleRadio -> d
     long val$filterId -> e
     383:396:void run() -> run
-net.fred.feedex.activity.EditFeedActivity$1$2 -> net.fred.feedex.activity.d:
-    net.fred.feedex.activity.EditFeedActivity$1 this$1 -> a
+cn.edu.nju.dapenti.activity.EditFeedActivity$1$2 -> cn.edu.nju.dapenti.activity.d:
+    cn.edu.nju.dapenti.activity.EditFeedActivity$1 this$1 -> a
     long val$filterId -> b
     413:423:void onClick(android.content.DialogInterface,int) -> onClick
-    410:410:net.fred.feedex.activity.EditFeedActivity$1 access$0(net.fred.feedex.activity.EditFeedActivity$1$2) -> a
-net.fred.feedex.activity.EditFeedActivity$1$2$1 -> net.fred.feedex.activity.e:
-    net.fred.feedex.activity.EditFeedActivity$1$2 this$2 -> a
+    410:410:cn.edu.nju.dapenti.activity.EditFeedActivity$1 access$0(cn.edu.nju.dapenti.activity.EditFeedActivity$1$2) -> a
+cn.edu.nju.dapenti.activity.EditFeedActivity$1$2$1 -> cn.edu.nju.dapenti.activity.e:
+    cn.edu.nju.dapenti.activity.EditFeedActivity$1$2 this$2 -> a
     long val$filterId -> b
     416:421:void run() -> run
-net.fred.feedex.activity.EditFeedActivity$2 -> net.fred.feedex.activity.f:
-    net.fred.feedex.activity.EditFeedActivity this$0 -> a
+cn.edu.nju.dapenti.activity.EditFeedActivity$2 -> cn.edu.nju.dapenti.activity.f:
+    cn.edu.nju.dapenti.activity.EditFeedActivity this$0 -> a
     151:154:boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long) -> onItemLongClick
-net.fred.feedex.activity.EditFeedActivity$3 -> net.fred.feedex.activity.g:
-    net.fred.feedex.activity.EditFeedActivity this$0 -> a
+cn.edu.nju.dapenti.activity.EditFeedActivity$3 -> cn.edu.nju.dapenti.activity.g:
+    cn.edu.nju.dapenti.activity.EditFeedActivity this$0 -> a
     android.view.View val$dialogView -> b
     253:265:void onClick(android.content.DialogInterface,int) -> onClick
-net.fred.feedex.activity.EditFeedActivity$4 -> net.fred.feedex.activity.h:
-    net.fred.feedex.activity.EditFeedActivity this$0 -> a
+cn.edu.nju.dapenti.activity.EditFeedActivity$4 -> cn.edu.nju.dapenti.activity.h:
+    cn.edu.nju.dapenti.activity.EditFeedActivity this$0 -> a
     269:269:void onClick(android.content.DialogInterface,int) -> onClick
-net.fred.feedex.activity.EditFeedActivity$5 -> net.fred.feedex.activity.i:
-    net.fred.feedex.activity.EditFeedActivity this$0 -> a
+cn.edu.nju.dapenti.activity.EditFeedActivity$5 -> cn.edu.nju.dapenti.activity.i:
+    cn.edu.nju.dapenti.activity.EditFeedActivity this$0 -> a
     android.widget.EditText val$searchText -> b
     android.widget.RadioGroup val$radioGroup -> c
     454:523:void onClick(android.content.DialogInterface,int) -> onClick
-    450:450:net.fred.feedex.activity.EditFeedActivity access$0(net.fred.feedex.activity.EditFeedActivity$5) -> a
-net.fred.feedex.activity.EditFeedActivity$5$1 -> net.fred.feedex.activity.j:
-    net.fred.feedex.activity.EditFeedActivity$5 this$1 -> a
+    450:450:cn.edu.nju.dapenti.activity.EditFeedActivity access$0(cn.edu.nju.dapenti.activity.EditFeedActivity$5) -> a
+cn.edu.nju.dapenti.activity.EditFeedActivity$5$1 -> cn.edu.nju.dapenti.activity.j:
+    cn.edu.nju.dapenti.activity.EditFeedActivity$5 this$1 -> a
     java.lang.String val$text -> b
     android.app.ProgressDialog val$pd -> c
     474:474:android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
     480:506:void onLoadFinished(android.content.Loader,java.util.ArrayList) -> a
     510:510:void onLoaderReset(android.content.Loader) -> onLoaderReset
     1:1:void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
-    470:470:net.fred.feedex.activity.EditFeedActivity$5 access$1(net.fred.feedex.activity.EditFeedActivity$5$1) -> a
-net.fred.feedex.activity.EditFeedActivity$5$1$1 -> net.fred.feedex.activity.k:
-    net.fred.feedex.activity.EditFeedActivity$5$1 this$2 -> a
+    470:470:cn.edu.nju.dapenti.activity.EditFeedActivity$5 access$1(cn.edu.nju.dapenti.activity.EditFeedActivity$5$1) -> a
+cn.edu.nju.dapenti.activity.EditFeedActivity$5$1$1 -> cn.edu.nju.dapenti.activity.k:
+    cn.edu.nju.dapenti.activity.EditFeedActivity$5$1 this$2 -> a
     java.util.ArrayList val$data -> b
     500:502:void onClick(android.content.DialogInterface,int) -> onClick
-net.fred.feedex.activity.EntryActivity -> net.fred.feedex.activity.EntryActivity:
+cn.edu.nju.dapenti.activity.EntryActivity -> cn.edu.nju.dapenti.activity.EntryActivity:
     android.view.animation.TranslateAnimation SLIDE_IN_RIGHT -> a
     android.view.animation.TranslateAnimation SLIDE_IN_LEFT -> b
     android.view.animation.TranslateAnimation SLIDE_OUT_RIGHT -> c
@@ -1905,8 +1905,8 @@ net.fred.feedex.activity.EntryActivity -> net.fred.feedex.activity.EntryActivity
     android.view.View$OnKeyListener onKeyEventListener -> S
     android.view.GestureDetector gestureDetector -> T
     android.view.View$OnTouchListener onTouchListener -> U
-    net.fred.feedex.utils.ThrottledContentObserver mTasksObserver -> V
-    net.fred.feedex.activity.EntryActivity$JavaScriptObject injectedJSObject -> W
+    cn.edu.nju.dapenti.utils.ThrottledContentObserver mTasksObserver -> V
+    cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject injectedJSObject -> W
     114:116:android.view.animation.TranslateAnimation generateAnimation(float,float) -> a
     226:291:void onCreate(android.os.Bundle) -> onCreate
     295:305:void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
@@ -1932,96 +1932,96 @@ net.fred.feedex.activity.EntryActivity -> net.fred.feedex.activity.EntryActivity
     789:790:void onClickBackBtn(android.view.View) -> onClickBackBtn
     793:794:void onClickForwardBtn(android.view.View) -> onClickForwardBtn
     797:798:void onClickCancelFullscreenBtn(android.view.View) -> onClickCancelFullscreenBtn
-    764:764:void access$0(net.fred.feedex.activity.EntryActivity) -> a
-    770:770:void access$1(net.fred.feedex.activity.EntryActivity) -> b
-    197:197:android.view.GestureDetector access$2(net.fred.feedex.activity.EntryActivity) -> c
-    157:157:long access$3(net.fred.feedex.activity.EntryActivity) -> d
-    165:165:void access$4(net.fred.feedex.activity.EntryActivity,boolean) -> a
-    368:368:void access$5(net.fred.feedex.activity.EntryActivity,boolean) -> b
-    162:162:android.net.Uri access$6(net.fred.feedex.activity.EntryActivity) -> e
-    154:154:int access$7(net.fred.feedex.activity.EntryActivity) -> f
-    206:206:net.fred.feedex.utils.ThrottledContentObserver access$8(net.fred.feedex.activity.EntryActivity) -> g
-    175:175:java.lang.String access$9(net.fred.feedex.activity.EntryActivity) -> h
-    591:591:void access$10(net.fred.feedex.activity.EntryActivity,android.net.Uri,java.lang.String,int,int) -> a
-    159:159:long access$11(net.fred.feedex.activity.EntryActivity) -> i
-    168:168:android.webkit.WebView access$12(net.fred.feedex.activity.EntryActivity) -> j
-    671:671:void access$13(net.fred.feedex.activity.EntryActivity) -> k
-    158:158:long access$14(net.fred.feedex.activity.EntryActivity) -> l
-    667:667:void access$15(net.fred.feedex.activity.EntryActivity) -> m
-    173:173:float access$16(net.fred.feedex.activity.EntryActivity) -> n
-    169:169:android.webkit.WebView access$17(net.fred.feedex.activity.EntryActivity) -> o
-net.fred.feedex.activity.EntryActivity$1 -> net.fred.feedex.activity.l:
-    net.fred.feedex.activity.EntryActivity this$0 -> a
+    764:764:void access$0(cn.edu.nju.dapenti.activity.EntryActivity) -> a
+    770:770:void access$1(cn.edu.nju.dapenti.activity.EntryActivity) -> b
+    197:197:android.view.GestureDetector access$2(cn.edu.nju.dapenti.activity.EntryActivity) -> c
+    157:157:long access$3(cn.edu.nju.dapenti.activity.EntryActivity) -> d
+    165:165:void access$4(cn.edu.nju.dapenti.activity.EntryActivity,boolean) -> a
+    368:368:void access$5(cn.edu.nju.dapenti.activity.EntryActivity,boolean) -> b
+    162:162:android.net.Uri access$6(cn.edu.nju.dapenti.activity.EntryActivity) -> e
+    154:154:int access$7(cn.edu.nju.dapenti.activity.EntryActivity) -> f
+    206:206:cn.edu.nju.dapenti.utils.ThrottledContentObserver access$8(cn.edu.nju.dapenti.activity.EntryActivity) -> g
+    175:175:java.lang.String access$9(cn.edu.nju.dapenti.activity.EntryActivity) -> h
+    591:591:void access$10(cn.edu.nju.dapenti.activity.EntryActivity,android.net.Uri,java.lang.String,int,int) -> a
+    159:159:long access$11(cn.edu.nju.dapenti.activity.EntryActivity) -> i
+    168:168:android.webkit.WebView access$12(cn.edu.nju.dapenti.activity.EntryActivity) -> j
+    671:671:void access$13(cn.edu.nju.dapenti.activity.EntryActivity) -> k
+    158:158:long access$14(cn.edu.nju.dapenti.activity.EntryActivity) -> l
+    667:667:void access$15(cn.edu.nju.dapenti.activity.EntryActivity) -> m
+    173:173:float access$16(cn.edu.nju.dapenti.activity.EntryActivity) -> n
+    169:169:android.webkit.WebView access$17(cn.edu.nju.dapenti.activity.EntryActivity) -> o
+cn.edu.nju.dapenti.activity.EntryActivity$1 -> cn.edu.nju.dapenti.activity.l:
+    cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
     184:193:boolean onKey(android.view.View,int,android.view.KeyEvent) -> onKey
-net.fred.feedex.activity.EntryActivity$2 -> net.fred.feedex.activity.m:
-    net.fred.feedex.activity.EntryActivity this$0 -> a
+cn.edu.nju.dapenti.activity.EntryActivity$2 -> cn.edu.nju.dapenti.activity.m:
+    cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
     202:202:boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
-net.fred.feedex.activity.EntryActivity$3 -> net.fred.feedex.activity.n:
-    net.fred.feedex.activity.EntryActivity this$0 -> a
+cn.edu.nju.dapenti.activity.EntryActivity$3 -> cn.edu.nju.dapenti.activity.n:
+    cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
     209:221:void onChangeThrottled() -> a
-net.fred.feedex.activity.EntryActivity$4 -> net.fred.feedex.activity.o:
-    net.fred.feedex.activity.EntryActivity this$0 -> a
+cn.edu.nju.dapenti.activity.EntryActivity$4 -> cn.edu.nju.dapenti.activity.o:
+    cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
     237:249:boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
-net.fred.feedex.activity.EntryActivity$5 -> net.fred.feedex.activity.p:
-    net.fred.feedex.activity.EntryActivity this$0 -> a
+cn.edu.nju.dapenti.activity.EntryActivity$5 -> cn.edu.nju.dapenti.activity.p:
+    cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
     android.webkit.WebView val$wv -> b
     561:575:void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
     581:586:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
-    558:558:net.fred.feedex.activity.EntryActivity access$0(net.fred.feedex.activity.EntryActivity$5) -> a
-net.fred.feedex.activity.EntryActivity$5$1 -> net.fred.feedex.activity.q:
-    net.fred.feedex.activity.EntryActivity$5 this$1 -> a
+    558:558:cn.edu.nju.dapenti.activity.EntryActivity access$0(cn.edu.nju.dapenti.activity.EntryActivity$5) -> a
+cn.edu.nju.dapenti.activity.EntryActivity$5$1 -> cn.edu.nju.dapenti.activity.q:
+    cn.edu.nju.dapenti.activity.EntryActivity$5 this$1 -> a
     android.webkit.WebView val$wv -> b
     567:571:void run() -> run
-net.fred.feedex.activity.EntryActivity$6 -> net.fred.feedex.activity.r:
-    net.fred.feedex.activity.EntryActivity this$0 -> a
+cn.edu.nju.dapenti.activity.EntryActivity$6 -> cn.edu.nju.dapenti.activity.r:
+    cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
     662:663:void run() -> run
-net.fred.feedex.activity.EntryActivity$7 -> net.fred.feedex.activity.s:
-    net.fred.feedex.activity.EntryActivity this$0 -> a
+cn.edu.nju.dapenti.activity.EntryActivity$7 -> cn.edu.nju.dapenti.activity.s:
+    cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
     737:741:void run() -> run
-net.fred.feedex.activity.EntryActivity$JavaScriptObject -> net.fred.feedex.activity.t:
-    net.fred.feedex.activity.EntryActivity this$0 -> a
+cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject -> cn.edu.nju.dapenti.activity.t:
+    cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
     804:804:java.lang.String toString() -> toString
     809:816:void onClickOriginalText() -> onClickOriginalText
     820:863:void onClickFullText() -> onClickFullText
     867:877:void onClickEnclosure() -> onClickEnclosure
-    800:800:net.fred.feedex.activity.EntryActivity access$1(net.fred.feedex.activity.EntryActivity$JavaScriptObject) -> a
-net.fred.feedex.activity.EntryActivity$JavaScriptObject$1 -> net.fred.feedex.activity.u:
-    net.fred.feedex.activity.EntryActivity$JavaScriptObject this$1 -> a
+    800:800:cn.edu.nju.dapenti.activity.EntryActivity access$1(cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject) -> a
+cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject$1 -> cn.edu.nju.dapenti.activity.u:
+    cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject this$1 -> a
     812:814:void run() -> run
-net.fred.feedex.activity.EntryActivity$JavaScriptObject$2 -> net.fred.feedex.activity.v:
-    net.fred.feedex.activity.EntryActivity$JavaScriptObject this$1 -> a
+cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject$2 -> cn.edu.nju.dapenti.activity.v:
+    cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject this$1 -> a
     830:832:void run() -> run
-net.fred.feedex.activity.EntryActivity$JavaScriptObject$3 -> net.fred.feedex.activity.w:
-    net.fred.feedex.activity.EntryActivity$JavaScriptObject this$1 -> a
+cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject$3 -> cn.edu.nju.dapenti.activity.w:
+    cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject this$1 -> a
     849:850:void run() -> run
-net.fred.feedex.activity.EntryActivity$JavaScriptObject$4 -> net.fred.feedex.activity.x:
-    net.fred.feedex.activity.EntryActivity$JavaScriptObject this$1 -> a
+cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject$4 -> cn.edu.nju.dapenti.activity.x:
+    cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject this$1 -> a
     857:858:void run() -> run
-net.fred.feedex.activity.EntryActivity$JavaScriptObject$5 -> net.fred.feedex.activity.y:
-    net.fred.feedex.activity.EntryActivity$JavaScriptObject this$1 -> a
+cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject$5 -> cn.edu.nju.dapenti.activity.y:
+    cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject this$1 -> a
     870:875:void run() -> run
-net.fred.feedex.activity.FeedsListActivity -> net.fred.feedex.activity.FeedsListActivity:
+cn.edu.nju.dapenti.activity.FeedsListActivity -> cn.edu.nju.dapenti.activity.FeedsListActivity:
     59:70:void onCreate(android.os.Bundle) -> onCreate
     74:79:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-net.fred.feedex.activity.GeneralPrefsActivity -> net.fred.feedex.activity.GeneralPrefsActivity:
+cn.edu.nju.dapenti.activity.GeneralPrefsActivity -> cn.edu.nju.dapenti.activity.GeneralPrefsActivity:
     63:96:void onCreate(android.os.Bundle) -> onCreate
     100:105:boolean onMenuItemSelected(int,android.view.MenuItem) -> onMenuItemSelected
-net.fred.feedex.activity.GeneralPrefsActivity$1 -> net.fred.feedex.activity.z:
-    net.fred.feedex.activity.GeneralPrefsActivity this$0 -> a
+cn.edu.nju.dapenti.activity.GeneralPrefsActivity$1 -> cn.edu.nju.dapenti.activity.z:
+    cn.edu.nju.dapenti.activity.GeneralPrefsActivity this$0 -> a
     75:81:boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
-net.fred.feedex.activity.GeneralPrefsActivity$2 -> net.fred.feedex.activity.aa:
-    net.fred.feedex.activity.GeneralPrefsActivity this$0 -> a
+cn.edu.nju.dapenti.activity.GeneralPrefsActivity$2 -> cn.edu.nju.dapenti.activity.aa:
+    cn.edu.nju.dapenti.activity.GeneralPrefsActivity this$0 -> a
     89:93:boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
-net.fred.feedex.activity.GetFeedSearchResultsLoader -> net.fred.feedex.activity.ab:
+cn.edu.nju.dapenti.activity.GetFeedSearchResultsLoader -> cn.edu.nju.dapenti.activity.ab:
     java.lang.String mSearchText -> a
     547:577:java.util.ArrayList loadInBackground() -> a
     1:1:java.lang.Object loadInBackground() -> loadInBackground
-net.fred.feedex.activity.MainActivity -> net.fred.feedex.activity.MainActivity:
+cn.edu.nju.dapenti.activity.MainActivity -> cn.edu.nju.dapenti.activity.MainActivity:
     android.content.SharedPreferences$OnSharedPreferenceChangeListener isRefreshingListener -> a
-    net.fred.feedex.fragment.EntriesListFragment mEntriesFragment -> b
+    cn.edu.nju.dapenti.fragment.EntriesListFragment mEntriesFragment -> b
     android.support.v4.widget.DrawerLayout mDrawerLayout -> c
     android.widget.ListView mDrawerList -> d
-    net.fred.feedex.adapter.DrawerAdapter mDrawerAdapter -> e
+    cn.edu.nju.dapenti.adapter.DrawerAdapter mDrawerAdapter -> e
     android.support.v4.app.ActionBarDrawerToggle mDrawerToggle -> f
     java.lang.CharSequence mTitle -> g
     android.graphics.drawable.BitmapDrawable mIcon -> h
@@ -2040,35 +2040,35 @@ net.fred.feedex.activity.MainActivity -> net.fred.feedex.activity.MainActivity:
     302:317:void onLoadFinished(android.content.Loader,android.database.Cursor) -> a
     321:321:void onLoaderReset(android.content.Loader) -> onLoaderReset
     1:1:void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
-    218:218:void access$1(net.fred.feedex.activity.MainActivity,int) -> a
-    71:71:android.support.v4.widget.DrawerLayout access$2(net.fred.feedex.activity.MainActivity) -> a
-    72:72:android.widget.ListView access$3(net.fred.feedex.activity.MainActivity) -> b
-    138:138:void access$4(net.fred.feedex.activity.MainActivity) -> c
-    78:78:int access$5(net.fred.feedex.activity.MainActivity) -> d
-net.fred.feedex.activity.MainActivity$1 -> net.fred.feedex.activity.ac:
-    net.fred.feedex.activity.MainActivity this$0 -> a
+    218:218:void access$1(cn.edu.nju.dapenti.activity.MainActivity,int) -> a
+    71:71:android.support.v4.widget.DrawerLayout access$2(cn.edu.nju.dapenti.activity.MainActivity) -> a
+    72:72:android.widget.ListView access$3(cn.edu.nju.dapenti.activity.MainActivity) -> b
+    138:138:void access$4(cn.edu.nju.dapenti.activity.MainActivity) -> c
+    78:78:int access$5(cn.edu.nju.dapenti.activity.MainActivity) -> d
+cn.edu.nju.dapenti.activity.MainActivity$1 -> cn.edu.nju.dapenti.activity.ac:
+    cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
     64:67:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
-net.fred.feedex.activity.MainActivity$2 -> net.fred.feedex.activity.ad:
-    net.fred.feedex.activity.MainActivity this$0 -> a
+cn.edu.nju.dapenti.activity.MainActivity$2 -> cn.edu.nju.dapenti.activity.ad:
+    cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
     96:98:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-net.fred.feedex.activity.MainActivity$3 -> net.fred.feedex.activity.ae:
-    net.fred.feedex.activity.MainActivity this$0 -> a
+cn.edu.nju.dapenti.activity.MainActivity$3 -> cn.edu.nju.dapenti.activity.ae:
+    cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
     107:109:void onDrawerClosed(android.view.View) -> b
     112:115:void onDrawerOpened(android.view.View) -> a
-net.fred.feedex.activity.MainActivity$4 -> net.fred.feedex.activity.af:
-    net.fred.feedex.activity.MainActivity this$0 -> a
+cn.edu.nju.dapenti.activity.MainActivity$4 -> cn.edu.nju.dapenti.activity.af:
+    cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
     269:270:void run() -> run
-net.fred.feedex.activity.MainActivity$5 -> net.fred.feedex.activity.ag:
-    net.fred.feedex.activity.MainActivity this$0 -> a
+cn.edu.nju.dapenti.activity.MainActivity$5 -> cn.edu.nju.dapenti.activity.ag:
+    cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
     312:314:void run() -> run
-net.fred.feedex.activity.ProgressActivity -> net.fred.feedex.activity.ah:
+cn.edu.nju.dapenti.activity.ProgressActivity -> cn.edu.nju.dapenti.activity.ah:
     android.widget.ProgressBar mProgressBar -> a
     15:16:void setContentView(android.view.View) -> setContentView
     20:21:void setContentView(int) -> setContentView
     25:26:void setContentView(android.view.View,android.view.ViewGroup$LayoutParams) -> setContentView
     29:31:android.view.ViewGroup init() -> b
     35:35:android.widget.ProgressBar getProgressBar() -> a
-net.fred.feedex.adapter.CursorLoaderExpandableListAdapter -> net.fred.feedex.a.a:
+cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter -> cn.edu.nju.dapenti.a.a:
     android.app.Activity mActivity -> a
     android.app.LoaderManager mLoaderMgr -> b
     android.net.Uri mGroupUri -> c
@@ -2101,32 +2101,32 @@ net.fred.feedex.adapter.CursorLoaderExpandableListAdapter -> net.fred.feedex.a.a
     344:344:void notifyDataSetChanged(android.database.Cursor) -> b
     1:1:java.lang.Object getChild(int,int) -> getChild
     1:1:java.lang.Object getGroup(int) -> getGroup
-    44:44:android.app.Activity access$2(net.fred.feedex.adapter.CursorLoaderExpandableListAdapter) -> a
-    46:46:android.net.Uri access$3(net.fred.feedex.adapter.CursorLoaderExpandableListAdapter) -> b
-    53:53:void access$4(net.fred.feedex.adapter.CursorLoaderExpandableListAdapter,android.database.Cursor) -> a
-    92:92:void access$5(net.fred.feedex.adapter.CursorLoaderExpandableListAdapter) -> c
-    57:57:android.util.SparseArray access$6(net.fred.feedex.adapter.CursorLoaderExpandableListAdapter) -> d
-net.fred.feedex.adapter.CursorLoaderExpandableListAdapter$1 -> net.fred.feedex.a.b:
-    net.fred.feedex.adapter.CursorLoaderExpandableListAdapter this$0 -> a
+    44:44:android.app.Activity access$2(cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter) -> a
+    46:46:android.net.Uri access$3(cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter) -> b
+    53:53:void access$4(cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter,android.database.Cursor) -> a
+    92:92:void access$5(cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter) -> c
+    57:57:android.util.SparseArray access$6(cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter) -> d
+cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter$1 -> cn.edu.nju.dapenti.a.b:
+    cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter this$0 -> a
     62:73:android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
     78:82:void onLoadFinished(android.content.Loader,android.database.Cursor) -> a
     86:89:void onLoaderReset(android.content.Loader) -> onLoaderReset
     1:1:void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
-    59:59:net.fred.feedex.adapter.CursorLoaderExpandableListAdapter access$1(net.fred.feedex.adapter.CursorLoaderExpandableListAdapter$1) -> a
-net.fred.feedex.adapter.CursorLoaderExpandableListAdapter$1$1 -> net.fred.feedex.a.c:
-    net.fred.feedex.adapter.CursorLoaderExpandableListAdapter$1 this$1 -> a
+    59:59:cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter access$1(cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter$1) -> a
+cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter$1$1 -> cn.edu.nju.dapenti.a.c:
+    cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter$1 this$1 -> a
     66:68:android.database.Cursor loadInBackground() -> loadInBackground
-net.fred.feedex.adapter.CursorLoaderExpandableListAdapter$2 -> net.fred.feedex.a.d:
-    net.fred.feedex.adapter.CursorLoaderExpandableListAdapter this$0 -> a
+cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter$2 -> cn.edu.nju.dapenti.a.d:
+    cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter this$0 -> a
     103:114:android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
     119:121:void onLoadFinished(android.content.Loader,android.database.Cursor) -> a
     125:127:void onLoaderReset(android.content.Loader) -> onLoaderReset
     1:1:void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
-    100:100:net.fred.feedex.adapter.CursorLoaderExpandableListAdapter access$1(net.fred.feedex.adapter.CursorLoaderExpandableListAdapter$2) -> a
-net.fred.feedex.adapter.CursorLoaderExpandableListAdapter$2$1 -> net.fred.feedex.a.e:
-    net.fred.feedex.adapter.CursorLoaderExpandableListAdapter$2 this$1 -> a
+    100:100:cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter access$1(cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter$2) -> a
+cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter$2$1 -> cn.edu.nju.dapenti.a.e:
+    cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter$2 this$1 -> a
     107:109:android.database.Cursor loadInBackground() -> loadInBackground
-net.fred.feedex.adapter.DrawerAdapter -> net.fred.feedex.a.f:
+cn.edu.nju.dapenti.adapter.DrawerAdapter -> cn.edu.nju.dapenti.a.f:
     int ITEM_PADDING -> a
     int NORMAL_TEXT_COLOR -> b
     int GROUP_TEXT_COLOR -> c
@@ -2142,16 +2142,16 @@ net.fred.feedex.adapter.DrawerAdapter -> net.fred.feedex.a.f:
     204:208:byte[] getItemIcon(int) -> a
     212:216:java.lang.String getItemName(int) -> b
     220:224:boolean isItemAGroup(int) -> c
-net.fred.feedex.adapter.DrawerAdapter$1 -> net.fred.feedex.a.g:
-    net.fred.feedex.adapter.DrawerAdapter this$0 -> a
+cn.edu.nju.dapenti.adapter.DrawerAdapter$1 -> cn.edu.nju.dapenti.a.g:
+    cn.edu.nju.dapenti.adapter.DrawerAdapter this$0 -> a
     69:69:boolean removeEldestEntry(java.util.Map$Entry) -> removeEldestEntry
-net.fred.feedex.adapter.DrawerAdapter$ViewHolder -> net.fred.feedex.a.h:
+cn.edu.nju.dapenti.adapter.DrawerAdapter$ViewHolder -> cn.edu.nju.dapenti.a.h:
     android.widget.ImageView iconView -> a
     android.widget.TextView titleTxt -> b
     android.widget.TextView stateTxt -> c
     android.widget.TextView unreadTxt -> d
     android.view.View separator -> e
-net.fred.feedex.adapter.EntriesCursorAdapter -> net.fred.feedex.a.i:
+cn.edu.nju.dapenti.adapter.EntriesCursorAdapter -> cn.edu.nju.dapenti.a.i:
     int titleColumnPosition -> a
     int dateColumn -> b
     int isReadColumn -> c
@@ -2175,42 +2175,42 @@ net.fred.feedex.adapter.EntriesCursorAdapter -> net.fred.feedex.a.i:
     272:274:void notifyDataSetChanged() -> notifyDataSetChanged
     278:280:void notifyDataSetInvalidated() -> notifyDataSetInvalidated
     283:300:void reinit(android.database.Cursor) -> a
-    93:93:java.util.Vector access$0(net.fred.feedex.adapter.EntriesCursorAdapter) -> a
-    94:94:java.util.Vector access$1(net.fred.feedex.adapter.EntriesCursorAdapter) -> b
-    88:88:android.net.Uri access$2(net.fred.feedex.adapter.EntriesCursorAdapter) -> c
-    226:226:void access$3(net.fred.feedex.adapter.EntriesCursorAdapter,long) -> a
-    242:242:void access$4(net.fred.feedex.adapter.EntriesCursorAdapter,long) -> b
-net.fred.feedex.adapter.EntriesCursorAdapter$1 -> net.fred.feedex.a.j:
-    net.fred.feedex.adapter.EntriesCursorAdapter this$0 -> a
+    93:93:java.util.Vector access$0(cn.edu.nju.dapenti.adapter.EntriesCursorAdapter) -> a
+    94:94:java.util.Vector access$1(cn.edu.nju.dapenti.adapter.EntriesCursorAdapter) -> b
+    88:88:android.net.Uri access$2(cn.edu.nju.dapenti.adapter.EntriesCursorAdapter) -> c
+    226:226:void access$3(cn.edu.nju.dapenti.adapter.EntriesCursorAdapter,long) -> a
+    242:242:void access$4(cn.edu.nju.dapenti.adapter.EntriesCursorAdapter,long) -> b
+cn.edu.nju.dapenti.adapter.EntriesCursorAdapter$1 -> cn.edu.nju.dapenti.a.j:
+    cn.edu.nju.dapenti.adapter.EntriesCursorAdapter this$0 -> a
     android.widget.ImageView val$starImgView -> b
     long val$id -> c
     121:143:void onClick(android.view.View) -> onClick
-net.fred.feedex.adapter.EntriesCursorAdapter$2 -> net.fred.feedex.a.k:
-    net.fred.feedex.adapter.EntriesCursorAdapter this$0 -> a
+cn.edu.nju.dapenti.adapter.EntriesCursorAdapter$2 -> cn.edu.nju.dapenti.a.k:
+    cn.edu.nju.dapenti.adapter.EntriesCursorAdapter this$0 -> a
     long val$id -> b
     android.widget.TextView val$textView -> c
     android.widget.TextView val$dateTextView -> d
     191:200:void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
-net.fred.feedex.adapter.EntriesCursorAdapter$3 -> net.fred.feedex.a.l:
-    net.fred.feedex.adapter.EntriesCursorAdapter this$0 -> a
+cn.edu.nju.dapenti.adapter.EntriesCursorAdapter$3 -> cn.edu.nju.dapenti.a.l:
+    cn.edu.nju.dapenti.adapter.EntriesCursorAdapter this$0 -> a
     211:222:void run() -> run
-net.fred.feedex.adapter.EntriesCursorAdapter$4 -> net.fred.feedex.a.m:
-    net.fred.feedex.adapter.EntriesCursorAdapter this$0 -> a
+cn.edu.nju.dapenti.adapter.EntriesCursorAdapter$4 -> cn.edu.nju.dapenti.a.m:
+    cn.edu.nju.dapenti.adapter.EntriesCursorAdapter this$0 -> a
     long val$id -> b
     233:238:void run() -> run
-net.fred.feedex.adapter.EntriesCursorAdapter$5 -> net.fred.feedex.a.n:
-    net.fred.feedex.adapter.EntriesCursorAdapter this$0 -> a
+cn.edu.nju.dapenti.adapter.EntriesCursorAdapter$5 -> cn.edu.nju.dapenti.a.n:
+    cn.edu.nju.dapenti.adapter.EntriesCursorAdapter this$0 -> a
     long val$id -> b
     249:254:void run() -> run
-net.fred.feedex.adapter.FeedsCursorAdapter -> net.fred.feedex.a.o:
+cn.edu.nju.dapenti.adapter.FeedsCursorAdapter -> cn.edu.nju.dapenti.a.o:
     android.app.Activity mActivity -> a
     int isGroupPosition -> b
     int namePosition -> c
     int idPosition -> d
     int linkPosition -> e
     int iconPosition -> f
-    net.fred.feedex.view.DragNDropExpandableListView mListView -> g
-    56:57:void setExpandableListView(net.fred.feedex.view.DragNDropExpandableListView) -> a
+    cn.edu.nju.dapenti.view.DragNDropExpandableListView mListView -> g
+    56:57:void setExpandableListView(cn.edu.nju.dapenti.view.DragNDropExpandableListView) -> a
     61:62:void onCursorLoaded(android.content.Context,android.database.Cursor) -> a
     66:90:void bindChildView(android.view.View,android.content.Context,android.database.Cursor) -> a
     94:113:void bindGroupView(android.view.View,android.content.Context,android.database.Cursor,boolean) -> a
@@ -2219,7 +2219,7 @@ net.fred.feedex.adapter.FeedsCursorAdapter -> net.fred.feedex.a.o:
     128:129:void notifyDataSetChanged(android.database.Cursor) -> b
     133:135:void notifyDataSetInvalidated() -> notifyDataSetInvalidated
     138:145:void getCursorPositions(android.database.Cursor) -> c
-net.fred.feedex.adapter.FiltersCursorAdapter -> net.fred.feedex.a.p:
+cn.edu.nju.dapenti.adapter.FiltersCursorAdapter -> cn.edu.nju.dapenti.a.p:
     int filterTextColumnPosition -> a
     int isAppliedToTitleColumnPosition -> b
     int mSelectedFilter -> c
@@ -2231,10 +2231,10 @@ net.fred.feedex.adapter.FiltersCursorAdapter -> net.fred.feedex.a.p:
     84:88:void reinit(android.database.Cursor) -> a
     91:92:void setSelectedFilter(int) -> a
     95:95:int getSelectedFilter() -> a
-net.fred.feedex.fragment.EntriesListFragment -> net.fred.feedex.fragment.EntriesListFragment:
+cn.edu.nju.dapenti.fragment.EntriesListFragment -> cn.edu.nju.dapenti.fragment.EntriesListFragment:
     android.net.Uri mUri -> a
     boolean mShowFeedInfo -> b
-    net.fred.feedex.adapter.EntriesCursorAdapter mEntriesCursorAdapter -> c
+    cn.edu.nju.dapenti.adapter.EntriesCursorAdapter mEntriesCursorAdapter -> c
     android.widget.ListView lv -> d
     android.content.SharedPreferences$OnSharedPreferenceChangeListener prefListener -> e
     117:129:void onCreate(android.os.Bundle) -> onCreate
@@ -2250,18 +2250,18 @@ net.fred.feedex.fragment.EntriesListFragment -> net.fred.feedex.fragment.Entries
     257:258:void onLoadFinished(android.content.Loader,android.database.Cursor) -> a
     262:263:void onLoaderReset(android.content.Loader) -> onLoaderReset
     1:1:void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
-    65:65:android.widget.ListView access$1(net.fred.feedex.fragment.EntriesListFragment) -> a
-net.fred.feedex.fragment.EntriesListFragment$1 -> net.fred.feedex.fragment.a:
-    net.fred.feedex.fragment.EntriesListFragment this$0 -> a
+    65:65:android.widget.ListView access$1(cn.edu.nju.dapenti.fragment.EntriesListFragment) -> a
+cn.edu.nju.dapenti.fragment.EntriesListFragment$1 -> cn.edu.nju.dapenti.fragment.a:
+    cn.edu.nju.dapenti.fragment.EntriesListFragment this$0 -> a
     70:73:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
-net.fred.feedex.fragment.EntriesListFragment$SwipeGestureListener -> net.fred.feedex.fragment.b:
+cn.edu.nju.dapenti.fragment.EntriesListFragment$SwipeGestureListener -> cn.edu.nju.dapenti.fragment.b:
     android.view.GestureDetector mGestureDetector -> b
-    net.fred.feedex.fragment.EntriesListFragment this$0 -> a
+    cn.edu.nju.dapenti.fragment.EntriesListFragment this$0 -> a
     89:106:boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
     111:111:boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
-net.fred.feedex.fragment.FeedsListFragment -> net.fred.feedex.fragment.c:
-    net.fred.feedex.adapter.FeedsCursorAdapter mListAdapter -> a
-    net.fred.feedex.view.DragNDropExpandableListView mListView -> b
+cn.edu.nju.dapenti.fragment.FeedsListFragment -> cn.edu.nju.dapenti.fragment.c:
+    cn.edu.nju.dapenti.adapter.FeedsCursorAdapter mListAdapter -> a
+    cn.edu.nju.dapenti.view.DragNDropExpandableListView mListView -> b
     android.view.ActionMode$Callback mFeedActionModeCallback -> c
     android.view.ActionMode$Callback mGroupActionModeCallback -> d
     92:96:void onCreate(android.os.Bundle) -> onCreate
@@ -2270,71 +2270,71 @@ net.fred.feedex.fragment.FeedsListFragment -> net.fred.feedex.fragment.c:
     222:224:void onDestroy() -> onDestroy
     228:230:void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater) -> onCreateOptionsMenu
     234:347:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    88:88:net.fred.feedex.view.DragNDropExpandableListView access$0(net.fred.feedex.fragment.FeedsListFragment) -> a
-    437:437:android.view.ActionMode$Callback access$1(net.fred.feedex.fragment.FeedsListFragment) -> b
-    350:350:android.view.ActionMode$Callback access$2(net.fred.feedex.fragment.FeedsListFragment) -> c
-    190:190:void access$3(net.fred.feedex.fragment.FeedsListFragment,boolean,boolean,boolean,long,int,int) -> a
-net.fred.feedex.fragment.FeedsListFragment$1 -> net.fred.feedex.fragment.d:
-    net.fred.feedex.fragment.FeedsListFragment this$0 -> a
+    88:88:cn.edu.nju.dapenti.view.DragNDropExpandableListView access$0(cn.edu.nju.dapenti.fragment.FeedsListFragment) -> a
+    437:437:android.view.ActionMode$Callback access$1(cn.edu.nju.dapenti.fragment.FeedsListFragment) -> b
+    350:350:android.view.ActionMode$Callback access$2(cn.edu.nju.dapenti.fragment.FeedsListFragment) -> c
+    190:190:void access$3(cn.edu.nju.dapenti.fragment.FeedsListFragment,boolean,boolean,boolean,long,int,int) -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$1 -> cn.edu.nju.dapenti.fragment.d:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment this$0 -> a
     356:358:boolean onCreateActionMode(android.view.ActionMode,android.view.Menu) -> onCreateActionMode
     365:365:boolean onPrepareActionMode(android.view.ActionMode,android.view.Menu) -> onPrepareActionMode
     372:424:boolean onActionItemClicked(android.view.ActionMode,android.view.MenuItem) -> onActionItemClicked
     431:434:void onDestroyActionMode(android.view.ActionMode) -> onDestroyActionMode
-    350:350:net.fred.feedex.fragment.FeedsListFragment access$0(net.fred.feedex.fragment.FeedsListFragment$1) -> a
-net.fred.feedex.fragment.FeedsListFragment$1$1 -> net.fred.feedex.fragment.e:
-    net.fred.feedex.fragment.FeedsListFragment$1 this$1 -> a
+    350:350:cn.edu.nju.dapenti.fragment.FeedsListFragment access$0(cn.edu.nju.dapenti.fragment.FeedsListFragment$1) -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$1$1 -> cn.edu.nju.dapenti.fragment.e:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$1 this$1 -> a
     long val$feedId -> b
     390:418:void onClick(android.content.DialogInterface,int) -> onClick
-    387:387:net.fred.feedex.fragment.FeedsListFragment$1 access$0(net.fred.feedex.fragment.FeedsListFragment$1$1) -> a
-net.fred.feedex.fragment.FeedsListFragment$1$1$1 -> net.fred.feedex.fragment.f:
-    net.fred.feedex.fragment.FeedsListFragment$1$1 this$2 -> a
+    387:387:cn.edu.nju.dapenti.fragment.FeedsListFragment$1 access$0(cn.edu.nju.dapenti.fragment.FeedsListFragment$1$1) -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$1$1$1 -> cn.edu.nju.dapenti.fragment.f:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$1$1 this$2 -> a
     long val$feedId -> b
     393:416:void run() -> run
-net.fred.feedex.fragment.FeedsListFragment$2 -> net.fred.feedex.fragment.g:
-    net.fred.feedex.fragment.FeedsListFragment this$0 -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$2 -> cn.edu.nju.dapenti.fragment.g:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment this$0 -> a
     443:445:boolean onCreateActionMode(android.view.ActionMode,android.view.Menu) -> onCreateActionMode
     452:452:boolean onPrepareActionMode(android.view.ActionMode,android.view.Menu) -> onPrepareActionMode
     459:519:boolean onActionItemClicked(android.view.ActionMode,android.view.MenuItem) -> onActionItemClicked
     526:529:void onDestroyActionMode(android.view.ActionMode) -> onDestroyActionMode
-    437:437:net.fred.feedex.fragment.FeedsListFragment access$0(net.fred.feedex.fragment.FeedsListFragment$2) -> a
-net.fred.feedex.fragment.FeedsListFragment$2$1 -> net.fred.feedex.fragment.h:
-    net.fred.feedex.fragment.FeedsListFragment$2 this$1 -> a
+    437:437:cn.edu.nju.dapenti.fragment.FeedsListFragment access$0(cn.edu.nju.dapenti.fragment.FeedsListFragment$2) -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$2$1 -> cn.edu.nju.dapenti.fragment.h:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$2 this$1 -> a
     android.widget.EditText val$input -> b
     long val$groupId -> c
     474:489:void onClick(android.content.DialogInterface,int) -> onClick
-    471:471:net.fred.feedex.fragment.FeedsListFragment$2 access$0(net.fred.feedex.fragment.FeedsListFragment$2$1) -> a
-net.fred.feedex.fragment.FeedsListFragment$2$1$1 -> net.fred.feedex.fragment.i:
-    net.fred.feedex.fragment.FeedsListFragment$2$1 this$2 -> a
+    471:471:cn.edu.nju.dapenti.fragment.FeedsListFragment$2 access$0(cn.edu.nju.dapenti.fragment.FeedsListFragment$2$1) -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$2$1$1 -> cn.edu.nju.dapenti.fragment.i:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$2$1 this$2 -> a
     android.widget.EditText val$input -> b
     long val$groupId -> c
     477:487:void run() -> run
-net.fred.feedex.fragment.FeedsListFragment$2$2 -> net.fred.feedex.fragment.j:
-    net.fred.feedex.fragment.FeedsListFragment$2 this$1 -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$2$2 -> cn.edu.nju.dapenti.fragment.j:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$2 this$1 -> a
     long val$groupId -> b
     502:513:void onClick(android.content.DialogInterface,int) -> onClick
-    499:499:net.fred.feedex.fragment.FeedsListFragment$2 access$0(net.fred.feedex.fragment.FeedsListFragment$2$2) -> a
-net.fred.feedex.fragment.FeedsListFragment$2$2$1 -> net.fred.feedex.fragment.k:
-    net.fred.feedex.fragment.FeedsListFragment$2$2 this$2 -> a
+    499:499:cn.edu.nju.dapenti.fragment.FeedsListFragment$2 access$0(cn.edu.nju.dapenti.fragment.FeedsListFragment$2$2) -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$2$2$1 -> cn.edu.nju.dapenti.fragment.k:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$2$2 this$2 -> a
     long val$groupId -> b
     505:511:void run() -> run
-net.fred.feedex.fragment.FeedsListFragment$3 -> net.fred.feedex.fragment.l:
-    net.fred.feedex.fragment.FeedsListFragment this$0 -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$3 -> cn.edu.nju.dapenti.fragment.l:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment this$0 -> a
     109:125:boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long) -> onItemLongClick
-net.fred.feedex.fragment.FeedsListFragment$4 -> net.fred.feedex.fragment.m:
+cn.edu.nju.dapenti.fragment.FeedsListFragment$4 -> cn.edu.nju.dapenti.fragment.m:
     boolean fromHasGroupIndicator -> a
-    net.fred.feedex.fragment.FeedsListFragment this$0 -> b
+    cn.edu.nju.dapenti.fragment.FeedsListFragment this$0 -> b
     136:136:void onStopDrag(android.view.View) -> a
     140:141:void onStartDrag(android.view.View) -> b
     145:180:void onDrop(int,int) -> a
     184:184:void onDrag(int,int,android.widget.ListView) -> a
-    131:131:net.fred.feedex.fragment.FeedsListFragment access$0(net.fred.feedex.fragment.FeedsListFragment$4) -> a
-net.fred.feedex.fragment.FeedsListFragment$4$1 -> net.fred.feedex.fragment.n:
-    net.fred.feedex.fragment.FeedsListFragment$4 this$1 -> a
+    131:131:cn.edu.nju.dapenti.fragment.FeedsListFragment access$0(cn.edu.nju.dapenti.fragment.FeedsListFragment$4) -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$4$1 -> cn.edu.nju.dapenti.fragment.n:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$4 this$1 -> a
     int val$flatPosTo -> b
     int val$flatPosFrom -> c
     163:170:void onClick(android.content.DialogInterface,int) -> onClick
-net.fred.feedex.fragment.FeedsListFragment$4$2 -> net.fred.feedex.fragment.o:
-    net.fred.feedex.fragment.FeedsListFragment$4 this$1 -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$4$2 -> cn.edu.nju.dapenti.fragment.o:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$4 this$1 -> a
     boolean val$fromIsGroup -> b
     boolean val$toIsGroup -> c
     boolean val$fromIsFeedWithoutGroup -> d
@@ -2342,53 +2342,53 @@ net.fred.feedex.fragment.FeedsListFragment$4$2 -> net.fred.feedex.fragment.o:
     int val$packedGroupPosTo -> f
     int val$flatPosFrom -> g
     174:175:void onClick(android.content.DialogInterface,int) -> onClick
-net.fred.feedex.fragment.FeedsListFragment$5 -> net.fred.feedex.fragment.p:
-    net.fred.feedex.fragment.FeedsListFragment this$0 -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$5 -> cn.edu.nju.dapenti.fragment.p:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment this$0 -> a
     android.widget.EditText val$input -> b
     249:262:void onClick(android.content.DialogInterface,int) -> onClick
-    246:246:net.fred.feedex.fragment.FeedsListFragment access$0(net.fred.feedex.fragment.FeedsListFragment$5) -> a
-net.fred.feedex.fragment.FeedsListFragment$5$1 -> net.fred.feedex.fragment.q:
-    net.fred.feedex.fragment.FeedsListFragment$5 this$1 -> a
+    246:246:cn.edu.nju.dapenti.fragment.FeedsListFragment access$0(cn.edu.nju.dapenti.fragment.FeedsListFragment$5) -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$5$1 -> cn.edu.nju.dapenti.fragment.q:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$5 this$1 -> a
     android.widget.EditText val$input -> b
     252:260:void run() -> run
-net.fred.feedex.fragment.FeedsListFragment$6 -> net.fred.feedex.fragment.r:
-    net.fred.feedex.fragment.FeedsListFragment this$0 -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$6 -> cn.edu.nju.dapenti.fragment.r:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment this$0 -> a
     277:277:boolean accept(java.io.File,java.lang.String) -> accept
-net.fred.feedex.fragment.FeedsListFragment$7 -> net.fred.feedex.fragment.s:
-    net.fred.feedex.fragment.FeedsListFragment this$0 -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$7 -> cn.edu.nju.dapenti.fragment.s:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment this$0 -> a
     java.lang.String[] val$fileNames -> b
     283:299:void onClick(android.content.DialogInterface,int) -> onClick
-    280:280:net.fred.feedex.fragment.FeedsListFragment access$0(net.fred.feedex.fragment.FeedsListFragment$7) -> a
-net.fred.feedex.fragment.FeedsListFragment$7$1 -> net.fred.feedex.fragment.t:
-    net.fred.feedex.fragment.FeedsListFragment$7 this$1 -> a
+    280:280:cn.edu.nju.dapenti.fragment.FeedsListFragment access$0(cn.edu.nju.dapenti.fragment.FeedsListFragment$7) -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$7$1 -> cn.edu.nju.dapenti.fragment.t:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$7 this$1 -> a
     java.lang.String[] val$fileNames -> b
     int val$which -> c
     287:297:void run() -> run
-    283:283:net.fred.feedex.fragment.FeedsListFragment$7 access$0(net.fred.feedex.fragment.FeedsListFragment$7$1) -> a
-net.fred.feedex.fragment.FeedsListFragment$7$1$1 -> net.fred.feedex.fragment.u:
-    net.fred.feedex.fragment.FeedsListFragment$7$1 this$2 -> a
+    283:283:cn.edu.nju.dapenti.fragment.FeedsListFragment$7 access$0(cn.edu.nju.dapenti.fragment.FeedsListFragment$7$1) -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$7$1$1 -> cn.edu.nju.dapenti.fragment.u:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$7$1 this$2 -> a
     293:294:void run() -> run
-net.fred.feedex.fragment.FeedsListFragment$8 -> net.fred.feedex.fragment.v:
-    net.fred.feedex.fragment.FeedsListFragment this$0 -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$8 -> cn.edu.nju.dapenti.fragment.v:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment this$0 -> a
     319:338:void run() -> run
-    315:315:net.fred.feedex.fragment.FeedsListFragment access$0(net.fred.feedex.fragment.FeedsListFragment$8) -> a
-net.fred.feedex.fragment.FeedsListFragment$8$1 -> net.fred.feedex.fragment.w:
-    net.fred.feedex.fragment.FeedsListFragment$8 this$1 -> a
+    315:315:cn.edu.nju.dapenti.fragment.FeedsListFragment access$0(cn.edu.nju.dapenti.fragment.FeedsListFragment$8) -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$8$1 -> cn.edu.nju.dapenti.fragment.w:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$8 this$1 -> a
     java.lang.String val$filename -> b
     326:328:void run() -> run
-net.fred.feedex.fragment.FeedsListFragment$8$2 -> net.fred.feedex.fragment.x:
-    net.fred.feedex.fragment.FeedsListFragment$8 this$1 -> a
+cn.edu.nju.dapenti.fragment.FeedsListFragment$8$2 -> cn.edu.nju.dapenti.fragment.x:
+    cn.edu.nju.dapenti.fragment.FeedsListFragment$8 this$1 -> a
     334:335:void run() -> run
-net.fred.feedex.parser.OPML -> net.fred.feedex.b.a:
+cn.edu.nju.dapenti.parser.OPML -> cn.edu.nju.dapenti.b.a:
     java.lang.String BACKUP_OPML -> a
     java.lang.String[] FEEDS_PROJECTION -> b
     java.lang.String[] FILTERS_PROJECTION -> c
-    net.fred.feedex.parser.OPML$OPMLParser parser -> d
+    cn.edu.nju.dapenti.parser.OPML$OPMLParser parser -> d
     boolean autoBackupEnabled -> e
     98:107:void importFromFile(java.lang.String) -> a
     110:111:void importFromFile(java.io.InputStream) -> a
     114:199:void exportToFile(java.lang.String) -> b
-net.fred.feedex.parser.OPML$OPMLParser -> net.fred.feedex.b.b:
+cn.edu.nju.dapenti.parser.OPML$OPMLParser -> cn.edu.nju.dapenti.b.b:
     boolean bodyTagEntered -> a
     boolean feedEntered -> b
     boolean probablyValidElement -> c
@@ -2399,7 +2399,7 @@ net.fred.feedex.parser.OPML$OPMLParser -> net.fred.feedex.b.b:
     300:300:void warning(org.xml.sax.SAXParseException) -> warning
     305:305:void error(org.xml.sax.SAXParseException) -> error
     309:314:void endDocument() -> endDocument
-net.fred.feedex.parser.RssAtomParser -> net.fred.feedex.b.c:
+cn.edu.nju.dapenti.parser.RssAtomParser -> cn.edu.nju.dapenti.b.c:
     java.lang.String[][] TIMEZONES_REPLACE -> a
     java.text.DateFormat[] PUBDATE_DATE_FORMATS -> b
     java.text.DateFormat[] UPDATE_DATE_FORMATS -> c
@@ -2441,7 +2441,7 @@ net.fred.feedex.parser.RssAtomParser -> net.fred.feedex.b.c:
     java.lang.StringBuilder guid -> M
     java.lang.StringBuilder author -> N
     java.lang.StringBuilder tmpAuthor -> O
-    net.fred.feedex.parser.RssAtomParser$FeedFilters filters -> P
+    cn.edu.nju.dapenti.parser.RssAtomParser$FeedFilters filters -> P
     java.util.ArrayList inserts -> Q
     java.util.ArrayList entriesImages -> R
     199:285:void startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes) -> startElement
@@ -2463,11 +2463,11 @@ net.fred.feedex.parser.RssAtomParser -> net.fred.feedex.b.c:
     591:591:void warning(org.xml.sax.SAXParseException) -> warning
     596:596:void error(org.xml.sax.SAXParseException) -> error
     600:641:void endDocument() -> endDocument
-net.fred.feedex.parser.RssAtomParser$FeedFilters -> net.fred.feedex.b.d:
+cn.edu.nju.dapenti.parser.RssAtomParser$FeedFilters -> cn.edu.nju.dapenti.b.d:
     java.util.ArrayList mFilters -> b
-    net.fred.feedex.parser.RssAtomParser this$0 -> a
+    cn.edu.nju.dapenti.parser.RssAtomParser this$0 -> a
     661:682:boolean isEntryFiltered(java.lang.String,java.lang.String) -> a
-net.fred.feedex.provider.DatabaseHelper -> net.fred.feedex.provider.a:
+cn.edu.nju.dapenti.provider.DatabaseHelper -> cn.edu.nju.dapenti.provider.a:
     android.os.Handler mHandler -> a
     80:108:void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
     112:115:void exportToOPML() -> a
@@ -2475,18 +2475,18 @@ net.fred.feedex.provider.DatabaseHelper -> net.fred.feedex.provider.a:
     137:155:void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
     159:162:void executeCatchedSQL(android.database.sqlite.SQLiteDatabase,java.lang.String) -> a
     165:170:void deleteFileOrDir(java.io.File) -> a
-net.fred.feedex.provider.DatabaseHelper$1 -> net.fred.feedex.provider.b:
-    net.fred.feedex.provider.DatabaseHelper this$0 -> a
+cn.edu.nju.dapenti.provider.DatabaseHelper$1 -> cn.edu.nju.dapenti.provider.b:
+    cn.edu.nju.dapenti.provider.DatabaseHelper this$0 -> a
     boolean val$hasBackup -> b
     91:106:void run() -> run
-net.fred.feedex.provider.DatabaseHelper$1$1 -> net.fred.feedex.provider.c:
-    net.fred.feedex.provider.DatabaseHelper$1 this$1 -> a
+cn.edu.nju.dapenti.provider.DatabaseHelper$1$1 -> cn.edu.nju.dapenti.provider.c:
+    cn.edu.nju.dapenti.provider.DatabaseHelper$1 this$1 -> a
     boolean val$hasBackup -> b
     95:104:void run() -> run
-net.fred.feedex.provider.FeedData -> net.fred.feedex.provider.d:
+cn.edu.nju.dapenti.provider.FeedData -> cn.edu.nju.dapenti.provider.d:
     224:226:android.content.ContentValues getReadContentValues() -> a
     230:232:android.content.ContentValues getUnreadContentValues() -> b
-net.fred.feedex.provider.FeedData$EntryColumns -> net.fred.feedex.provider.e:
+cn.edu.nju.dapenti.provider.FeedData$EntryColumns -> cn.edu.nju.dapenti.provider.e:
     java.lang.String[][] COLUMNS -> a
     android.net.Uri CONTENT_URI -> b
     android.net.Uri FAVORITES_CONTENT_URI -> c
@@ -2497,7 +2497,7 @@ net.fred.feedex.provider.FeedData$EntryColumns -> net.fred.feedex.provider.e:
     182:182:android.net.Uri CONTENT_URI(java.lang.String) -> b
     186:186:android.net.Uri CONTENT_URI(long) -> c
     190:190:android.net.Uri PARENT_URI(java.lang.String) -> c
-net.fred.feedex.provider.FeedData$FeedColumns -> net.fred.feedex.provider.f:
+cn.edu.nju.dapenti.provider.FeedData$FeedColumns -> cn.edu.nju.dapenti.provider.f:
     java.lang.String[][] COLUMNS -> a
     android.net.Uri CONTENT_URI -> b
     android.net.Uri GROUPED_FEEDS_CONTENT_URI -> c
@@ -2510,18 +2510,18 @@ net.fred.feedex.provider.FeedData$FeedColumns -> net.fred.feedex.provider.f:
     105:105:android.net.Uri GROUPS_CONTENT_URI(long) -> b
     109:109:android.net.Uri FEEDS_FOR_GROUPS_CONTENT_URI(java.lang.String) -> b
     113:113:android.net.Uri FEEDS_FOR_GROUPS_CONTENT_URI(long) -> c
-net.fred.feedex.provider.FeedData$FilterColumns -> net.fred.feedex.provider.g:
+cn.edu.nju.dapenti.provider.FeedData$FilterColumns -> cn.edu.nju.dapenti.provider.g:
     java.lang.String[][] COLUMNS -> a
     android.net.Uri CONTENT_URI -> b
     135:135:android.net.Uri FILTERS_FOR_FEED_CONTENT_URI(java.lang.String) -> a
-net.fred.feedex.provider.FeedData$TaskColumns -> net.fred.feedex.provider.h:
+cn.edu.nju.dapenti.provider.FeedData$TaskColumns -> cn.edu.nju.dapenti.provider.h:
     java.lang.String[][] COLUMNS -> a
     android.net.Uri CONTENT_URI -> b
     java.lang.String[] PROJECTION_ID -> c
     217:217:android.net.Uri CONTENT_URI(long) -> a
-net.fred.feedex.provider.FeedDataContentProvider -> net.fred.feedex.provider.FeedDataContentProvider:
+cn.edu.nju.dapenti.provider.FeedDataContentProvider -> cn.edu.nju.dapenti.provider.FeedDataContentProvider:
     android.content.UriMatcher URI_MATCHER -> a
-    net.fred.feedex.provider.DatabaseHelper mDatabaseHelper -> b
+    cn.edu.nju.dapenti.provider.DatabaseHelper mDatabaseHelper -> b
     java.lang.String[] MAXPRIORITY -> c
     121:150:java.lang.String getType(android.net.Uri) -> getType
     156:158:boolean onCreate() -> onCreate
@@ -2532,16 +2532,16 @@ net.fred.feedex.provider.FeedDataContentProvider -> net.fred.feedex.provider.Fee
     627:634:java.lang.String getFeedIdFromEntryId(long) -> a
     638:650:void notifyGroupFromFeedId(java.lang.String) -> a
     653:677:void notifyAllFromEntryUri(android.net.Uri,boolean) -> a
-net.fred.feedex.provider.FeedDataContentProvider$1 -> net.fred.feedex.provider.i:
-    net.fred.feedex.provider.FeedDataContentProvider this$0 -> a
+cn.edu.nju.dapenti.provider.FeedDataContentProvider$1 -> cn.edu.nju.dapenti.provider.i:
+    cn.edu.nju.dapenti.provider.FeedDataContentProvider this$0 -> a
     java.lang.String val$feedId -> b
     520:524:void run() -> run
-net.fred.feedex.receiver.BootCompletedBroadcastReceiver -> net.fred.feedex.receiver.BootCompletedBroadcastReceiver:
+cn.edu.nju.dapenti.receiver.BootCompletedBroadcastReceiver -> cn.edu.nju.dapenti.receiver.BootCompletedBroadcastReceiver:
     57:61:void onReceive(android.content.Context,android.content.Intent) -> onReceive
-net.fred.feedex.receiver.ConnectionChangeReceiver -> net.fred.feedex.receiver.ConnectionChangeReceiver:
+cn.edu.nju.dapenti.receiver.ConnectionChangeReceiver -> cn.edu.nju.dapenti.receiver.ConnectionChangeReceiver:
     boolean mConnection -> a
     39:57:void onReceive(android.content.Context,android.content.Intent) -> onReceive
-net.fred.feedex.service.FetcherService -> net.fred.feedex.service.FetcherService:
+cn.edu.nju.dapenti.service.FetcherService -> cn.edu.nju.dapenti.service.FetcherService:
     java.util.regex.Pattern FEED_LINK_PATTERN -> a
     java.util.regex.Pattern IMG_PATTERN -> b
     java.util.regex.Pattern DIV_TAG -> c
@@ -2556,16 +2556,16 @@ net.fred.feedex.service.FetcherService -> net.fred.feedex.service.FetcherService
     408:449:int refreshFeeds() -> c
     453:689:int refreshFeed(java.lang.String) -> a
     693:749:android.util.Pair improveHtmlContent(java.lang.String,boolean) -> a
-    452:452:int access$0(net.fred.feedex.service.FetcherService,java.lang.String) -> a
-net.fred.feedex.service.FetcherService$1 -> net.fred.feedex.service.a:
-    net.fred.feedex.service.FetcherService this$0 -> a
+    452:452:int access$0(cn.edu.nju.dapenti.service.FetcherService,java.lang.String) -> a
+cn.edu.nju.dapenti.service.FetcherService$1 -> cn.edu.nju.dapenti.service.a:
+    cn.edu.nju.dapenti.service.FetcherService this$0 -> a
     415:417:java.lang.Thread newThread(java.lang.Runnable) -> newThread
-net.fred.feedex.service.FetcherService$2 -> net.fred.feedex.service.b:
-    net.fred.feedex.service.FetcherService this$0 -> a
+cn.edu.nju.dapenti.service.FetcherService$2 -> cn.edu.nju.dapenti.service.b:
+    cn.edu.nju.dapenti.service.FetcherService this$0 -> a
     java.lang.String val$feedId -> b
     427:432:java.lang.Integer call() -> a
     1:1:java.lang.Object call() -> call
-net.fred.feedex.service.RefreshService -> net.fred.feedex.service.RefreshService:
+cn.edu.nju.dapenti.service.RefreshService -> cn.edu.nju.dapenti.service.RefreshService:
     android.content.SharedPreferences$OnSharedPreferenceChangeListener listener -> a
     android.app.AlarmManager alarmManager -> b
     android.app.PendingIntent timerIntent -> c
@@ -2574,13 +2574,13 @@ net.fred.feedex.service.RefreshService -> net.fred.feedex.service.RefreshService
     96:101:void onCreate() -> onCreate
     104:128:void restartTimer(boolean) -> a
     132:137:void onDestroy() -> onDestroy
-    103:103:void access$0(net.fred.feedex.service.RefreshService,boolean) -> a
-net.fred.feedex.service.RefreshService$1 -> net.fred.feedex.service.c:
-    net.fred.feedex.service.RefreshService this$0 -> a
+    103:103:void access$0(cn.edu.nju.dapenti.service.RefreshService,boolean) -> a
+cn.edu.nju.dapenti.service.RefreshService$1 -> cn.edu.nju.dapenti.service.c:
+    cn.edu.nju.dapenti.service.RefreshService this$0 -> a
     74:77:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
-net.fred.feedex.service.RefreshService$RefreshAlarmReceiver -> net.fred.feedex.service.RefreshService$RefreshAlarmReceiver:
+cn.edu.nju.dapenti.service.RefreshService$RefreshAlarmReceiver -> cn.edu.nju.dapenti.service.RefreshService$RefreshAlarmReceiver:
     67:68:void onReceive(android.content.Context,android.content.Intent) -> onReceive
-net.fred.feedex.utils.NetworkUtils -> net.fred.feedex.c.a:
+cn.edu.nju.dapenti.utils.NetworkUtils -> cn.edu.nju.dapenti.c.a:
     java.io.File IMAGE_FOLDER_FILE -> a
     java.lang.String IMAGE_FOLDER -> b
     88:98:void downloadImage(long,java.lang.String) -> a
@@ -2591,11 +2591,11 @@ net.fred.feedex.utils.NetworkUtils -> net.fred.feedex.c.a:
     163:163:java.net.HttpURLConnection setupConnection(java.net.URL) -> a
     167:223:java.net.HttpURLConnection setupConnection(java.net.URL,int) -> a
     230:235:java.io.InputStream getConnectionInputStream(java.net.HttpURLConnection) -> a
-net.fred.feedex.utils.NetworkUtils$PictureFilenameFilter -> net.fred.feedex.c.b:
+cn.edu.nju.dapenti.utils.NetworkUtils$PictureFilenameFilter -> cn.edu.nju.dapenti.c.b:
     java.util.regex.Pattern pattern -> a
     78:79:void setEntryId(java.lang.String) -> a
     83:83:boolean accept(java.io.File,java.lang.String) -> accept
-net.fred.feedex.utils.PrefUtils -> net.fred.feedex.c.c:
+cn.edu.nju.dapenti.utils.PrefUtils -> cn.edu.nju.dapenti.c.c:
     62:63:boolean getBoolean(java.lang.String,boolean) -> a
     67:70:void putBoolean(java.lang.String,boolean) -> b
     73:74:int getInteger(java.lang.String,int) -> a
@@ -2607,37 +2607,37 @@ net.fred.feedex.utils.PrefUtils -> net.fred.feedex.c.c:
     106:109:void remove(java.lang.String) -> a
     113:116:void registerOnPrefChangeListener(android.content.SharedPreferences$OnSharedPreferenceChangeListener) -> a
     120:123:void unregisterOnPrefChangeListener(android.content.SharedPreferences$OnSharedPreferenceChangeListener) -> b
-net.fred.feedex.utils.ThrottledContentObserver -> net.fred.feedex.c.d:
+cn.edu.nju.dapenti.utils.ThrottledContentObserver -> cn.edu.nju.dapenti.c.d:
     long mUpdateThrottle -> a
     android.os.Handler mHandler -> b
     java.lang.Runnable mOnChangeTask -> c
     40:53:void onChange(boolean) -> onChange
     void onChangeThrottled() -> a
-    30:30:void access$0(net.fred.feedex.utils.ThrottledContentObserver,java.lang.Runnable) -> a
-net.fred.feedex.utils.ThrottledContentObserver$1 -> net.fred.feedex.c.e:
-    net.fred.feedex.utils.ThrottledContentObserver this$0 -> a
+    30:30:void access$0(cn.edu.nju.dapenti.utils.ThrottledContentObserver,java.lang.Runnable) -> a
+cn.edu.nju.dapenti.utils.ThrottledContentObserver$1 -> cn.edu.nju.dapenti.c.e:
+    cn.edu.nju.dapenti.utils.ThrottledContentObserver this$0 -> a
     44:46:void run() -> run
-net.fred.feedex.utils.UiUtils -> net.fred.feedex.c.f:
+cn.edu.nju.dapenti.utils.UiUtils -> cn.edu.nju.dapenti.c.f:
     10:13:void setPreferenceTheme(android.app.Activity) -> a
     16:16:int dpToPixel(int) -> a
-net.fred.feedex.view.DragNDropExpandableListView -> net.fred.feedex.view.DragNDropExpandableListView:
+cn.edu.nju.dapenti.view.DragNDropExpandableListView -> cn.edu.nju.dapenti.view.DragNDropExpandableListView:
     boolean mDragMode -> a
     int mStartPosition -> b
     int mDragPointOffset -> c
     android.widget.ImageView mDragView -> d
-    net.fred.feedex.view.DragNDropListener mDragNDropListener -> e
-    49:50:void setDragNDropListener(net.fred.feedex.view.DragNDropListener) -> setDragNDropListener
+    cn.edu.nju.dapenti.view.DragNDropListener mDragNDropListener -> e
+    49:50:void setDragNDropListener(cn.edu.nju.dapenti.view.DragNDropListener) -> setDragNDropListener
     54:99:boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
     104:114:void drag(int,int) -> a
     118:153:void startDrag(int,int) -> b
     157:166:void stopDrag(int) -> a
     170:174:long getItemIdAtPosition(int) -> getItemIdAtPosition
-net.fred.feedex.view.DragNDropListener -> net.fred.feedex.view.a:
+cn.edu.nju.dapenti.view.DragNDropListener -> cn.edu.nju.dapenti.view.a:
     void onStartDrag(android.view.View) -> b
     void onDrag(int,int,android.widget.ListView) -> a
     void onStopDrag(android.view.View) -> a
     void onDrop(int,int) -> a
-net.fred.feedex.widget.ColorPickerDialogPreference -> net.fred.feedex.widget.ColorPickerDialogPreference:
+cn.edu.nju.dapenti.widget.ColorPickerDialogPreference -> cn.edu.nju.dapenti.widget.ColorPickerDialogPreference:
     android.widget.SeekBar redSeekBar -> a
     android.widget.SeekBar greenSeekBar -> b
     android.widget.SeekBar blueSeekBar -> c
@@ -2645,32 +2645,32 @@ net.fred.feedex.widget.ColorPickerDialogPreference -> net.fred.feedex.widget.Col
     int color -> e
     72:122:android.view.View onCreateDialogView() -> onCreateDialogView
     127:131:void onDialogClosed(boolean) -> onDialogClosed
-    58:58:android.widget.SeekBar access$0(net.fred.feedex.widget.ColorPickerDialogPreference) -> a
-    59:59:android.widget.SeekBar access$1(net.fred.feedex.widget.ColorPickerDialogPreference) -> b
-    60:60:android.widget.SeekBar access$2(net.fred.feedex.widget.ColorPickerDialogPreference) -> c
-    61:61:android.widget.SeekBar access$3(net.fred.feedex.widget.ColorPickerDialogPreference) -> d
-    63:63:void access$4(net.fred.feedex.widget.ColorPickerDialogPreference,int) -> a
-    63:63:int access$5(net.fred.feedex.widget.ColorPickerDialogPreference) -> e
-net.fred.feedex.widget.ColorPickerDialogPreference$1 -> net.fred.feedex.widget.a:
-    net.fred.feedex.widget.ColorPickerDialogPreference this$0 -> a
+    58:58:android.widget.SeekBar access$0(cn.edu.nju.dapenti.widget.ColorPickerDialogPreference) -> a
+    59:59:android.widget.SeekBar access$1(cn.edu.nju.dapenti.widget.ColorPickerDialogPreference) -> b
+    60:60:android.widget.SeekBar access$2(cn.edu.nju.dapenti.widget.ColorPickerDialogPreference) -> c
+    61:61:android.widget.SeekBar access$3(cn.edu.nju.dapenti.widget.ColorPickerDialogPreference) -> d
+    63:63:void access$4(cn.edu.nju.dapenti.widget.ColorPickerDialogPreference,int) -> a
+    63:63:int access$5(cn.edu.nju.dapenti.widget.ColorPickerDialogPreference) -> e
+cn.edu.nju.dapenti.widget.ColorPickerDialogPreference$1 -> cn.edu.nju.dapenti.widget.a:
+    cn.edu.nju.dapenti.widget.ColorPickerDialogPreference this$0 -> a
     android.view.View val$view -> b
     95:105:void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
     110:110:void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
     115:115:void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
-net.fred.feedex.widget.WidgetConfigActivity -> net.fred.feedex.widget.WidgetConfigActivity:
+cn.edu.nju.dapenti.widget.WidgetConfigActivity -> cn.edu.nju.dapenti.widget.WidgetConfigActivity:
     int widgetId -> a
     70:160:void onCreate(android.os.Bundle) -> onCreate
-    64:64:int access$0(net.fred.feedex.widget.WidgetConfigActivity) -> a
-net.fred.feedex.widget.WidgetConfigActivity$1 -> net.fred.feedex.widget.b:
-    net.fred.feedex.widget.WidgetConfigActivity this$0 -> a
+    64:64:int access$0(cn.edu.nju.dapenti.widget.WidgetConfigActivity) -> a
+cn.edu.nju.dapenti.widget.WidgetConfigActivity$1 -> cn.edu.nju.dapenti.widget.b:
+    cn.edu.nju.dapenti.widget.WidgetConfigActivity this$0 -> a
     android.preference.PreferenceCategory val$feedsPreferenceCategory -> b
     111:153:void onClick(android.view.View) -> onClick
-net.fred.feedex.widget.WidgetFeedsFactory -> net.fred.feedex.widget.c:
+cn.edu.nju.dapenti.widget.WidgetFeedsFactory -> cn.edu.nju.dapenti.widget.c:
     android.content.Context mContext -> a
     int mAppWidgetId -> b
     int mFontSize -> c
     android.database.Cursor mCursor -> d
-    net.fred.feedex.utils.ThrottledContentObserver mContentObserver -> e
+    cn.edu.nju.dapenti.utils.ThrottledContentObserver mContentObserver -> e
     60:70:void onCreate() -> onCreate
     74:77:void onDestroy() -> onDestroy
     81:81:int getCount() -> getCount
@@ -2681,12 +2681,12 @@ net.fred.feedex.widget.WidgetFeedsFactory -> net.fred.feedex.widget.c:
     132:132:boolean hasStableIds() -> hasStableIds
     137:139:void onDataSetChanged() -> onDataSetChanged
     142:156:void computeCursor() -> a
-    47:47:android.content.Context access$0(net.fred.feedex.widget.WidgetFeedsFactory) -> a
-    48:48:int access$1(net.fred.feedex.widget.WidgetFeedsFactory) -> b
-net.fred.feedex.widget.WidgetFeedsFactory$1 -> net.fred.feedex.widget.d:
-    net.fred.feedex.widget.WidgetFeedsFactory this$0 -> a
+    47:47:android.content.Context access$0(cn.edu.nju.dapenti.widget.WidgetFeedsFactory) -> a
+    48:48:int access$1(cn.edu.nju.dapenti.widget.WidgetFeedsFactory) -> b
+cn.edu.nju.dapenti.widget.WidgetFeedsFactory$1 -> cn.edu.nju.dapenti.widget.d:
+    cn.edu.nju.dapenti.widget.WidgetFeedsFactory this$0 -> a
     65:66:void onChangeThrottled() -> a
-net.fred.feedex.widget.WidgetProvider -> net.fred.feedex.widget.WidgetProvider:
+cn.edu.nju.dapenti.widget.WidgetProvider -> cn.edu.nju.dapenti.widget.WidgetProvider:
     39:57:void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> onUpdate
-net.fred.feedex.widget.WidgetService -> net.fred.feedex.widget.WidgetService:
+cn.edu.nju.dapenti.widget.WidgetService -> cn.edu.nju.dapenti.widget.WidgetService:
     42:42:android.widget.RemoteViewsService$RemoteViewsFactory onGetViewFactory(android.content.Intent) -> onGetViewFactory

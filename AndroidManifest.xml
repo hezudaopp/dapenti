@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.fred.feedex"
+    package="cn.edu.nju.dapenti"
     android:installLocation="auto"
     android:versionCode="2"
     android:versionName="2.0">
@@ -16,22 +16,22 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".MainApplication"
+        android:name="cn.edu.nju.dapenti.MainApplication"
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
-        <service android:name=".service.RefreshService" />
-        <service android:name=".service.FetcherService" />
+        <service android:name="cn.edu.nju.dapenti.service.RefreshService" />
+        <service android:name="cn.edu.nju.dapenti.service.FetcherService" />
 
         <!-- providver will map android:authorities to a class, used by Intent -->
         <provider
-            android:name=".provider.FeedDataContentProvider"
-            android:authorities="net.fred.feedex.provider.FeedData"
+            android:name="cn.edu.nju.dapenti.provider.FeedDataContentProvider"
+            android:authorities="cn.edu.nju.dapenti.provider.FeedData"
             android:exported="true" />
 
         <activity
-            android:name=".activity.MainActivity"
+            android:name="cn.edu.nju.dapenti.activity.MainActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask">
             <intent-filter>
@@ -40,11 +40,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.FeedsListActivity"
+            android:name="cn.edu.nju.dapenti.activity.FeedsListActivity"
             android:label="@string/feeds"
             android:launchMode="singleTask" />
         <activity
-            android:name=".activity.EntryActivity"
+            android:name="cn.edu.nju.dapenti.activity.EntryActivity"
             android:launchMode="singleTask">
             <!-- EntryActivity will handle VIEW action of mimetype of vnd.android.cursor.item/vnd.feedex.entry -->
             <intent-filter>
@@ -53,13 +53,13 @@
                 <data android:mimeType="vnd.android.cursor.item/vnd.feedex.entry" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.GeneralPrefsActivity" />
-        <activity android:name=".widget.WidgetConfigActivity">
+        <activity android:name="cn.edu.nju.dapenti.activity.GeneralPrefsActivity" />
+        <activity android:name="cn.edu.nju.dapenti.widget.WidgetConfigActivity">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.EditFeedActivity">
+        <activity android:name="cn.edu.nju.dapenti.activity.EditFeedActivity">
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -77,7 +77,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".widget.WidgetProvider">
+        <receiver android:name="cn.edu.nju.dapenti.widget.WidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -88,20 +88,20 @@
         </receiver>
 
         <service
-            android:name=".widget.WidgetService"
+            android:name="cn.edu.nju.dapenti.widget.WidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
-        <receiver android:name=".receiver.BootCompletedBroadcastReceiver">
+        <receiver android:name="cn.edu.nju.dapenti.receiver.BootCompletedBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".receiver.ConnectionChangeReceiver">
+        <receiver android:name="cn.edu.nju.dapenti.receiver.ConnectionChangeReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".service.RefreshService$RefreshAlarmReceiver" />
+        <receiver android:name="cn.edu.nju.dapenti.service.RefreshService$RefreshAlarmReceiver" />
     </application>
 
 </manifest>

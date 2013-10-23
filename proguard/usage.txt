@@ -1048,8 +1048,8 @@ android.support.v4.widget.ViewDragHelper:
     908:927:protected boolean canScroll(android.view.View,boolean,int,int,int,int)
     1331:1337:public boolean isEdgeTouched(int)
     1351:1351:public boolean isEdgeTouched(int,int)
-net.fred.feedex.BuildConfig
-net.fred.feedex.Constants:
+cn.edu.nju.dapenti.BuildConfig
+cn.edu.nju.dapenti.Constants:
     public static final java.lang.String INTENT_FROM_WIDGET
     public static final java.lang.String FEED_ID
     public static final java.lang.String DB_IS_TRUE
@@ -1085,21 +1085,21 @@ net.fred.feedex.Constants:
     public static final java.lang.String MIMETYPE_TEXT_PLAIN
     public static final int UPDATE_THROTTLE_DELAY
     28:28:public Constants()
-net.fred.feedex.R
-net.fred.feedex.R$array
-net.fred.feedex.R$attr
-net.fred.feedex.R$drawable
-net.fred.feedex.R$id
-net.fred.feedex.R$layout
-net.fred.feedex.R$menu
-net.fred.feedex.R$raw
-net.fred.feedex.R$string
-net.fred.feedex.R$xml
-net.fred.feedex.activity.EditFeedActivity:
+cn.edu.nju.dapenti.R
+cn.edu.nju.dapenti.R$array
+cn.edu.nju.dapenti.R$attr
+cn.edu.nju.dapenti.R$drawable
+cn.edu.nju.dapenti.R$id
+cn.edu.nju.dapenti.R$layout
+cn.edu.nju.dapenti.R$menu
+cn.edu.nju.dapenti.R$raw
+cn.edu.nju.dapenti.R$string
+cn.edu.nju.dapenti.R$xml
+cn.edu.nju.dapenti.activity.EditFeedActivity:
     static final java.lang.String FEED_SEARCH_TITLE
     static final java.lang.String FEED_SEARCH_URL
     static final java.lang.String FEED_SEARCH_DESC
-net.fred.feedex.activity.EntryActivity:
+cn.edu.nju.dapenti.activity.EntryActivity:
     private static final java.lang.String SAVE_INSTANCE_SCROLL_PERCENTAGE
     private static final java.lang.String SAVE_INSTANCE_ENTRIES_IDS
     private static final java.lang.String SAVE_INSTANCE_IS_FULLSCREEN
@@ -1120,12 +1120,12 @@ net.fred.feedex.activity.EntryActivity:
     private static final java.lang.String LINK_BUTTON_START
     private static final java.lang.String LINK_BUTTON_END
     private static final java.lang.String IMAGE_ENCLOSURE
-net.fred.feedex.activity.MainActivity:
+cn.edu.nju.dapenti.activity.MainActivity:
     private static final java.lang.String STATE_CURRENT_DRAWER_POS
     private static final int LOADER_ID
-net.fred.feedex.adapter.CursorLoaderExpandableListAdapter:
+cn.edu.nju.dapenti.adapter.CursorLoaderExpandableListAdapter:
     private static final java.lang.String URI_ARG
-net.fred.feedex.adapter.DrawerAdapter:
+cn.edu.nju.dapenti.adapter.DrawerAdapter:
     private static final int POS_ID
     private static final int POS_URL
     private static final int POS_NAME
@@ -1138,17 +1138,17 @@ net.fred.feedex.adapter.DrawerAdapter:
     private static final int POS_ALL_UNREAD
     private static final int POS_FAVORITES_UNREAD
     private static final int CACHE_MAX_ENTRIES
-net.fred.feedex.adapter.DrawerAdapter$1:
+cn.edu.nju.dapenti.adapter.DrawerAdapter$1:
     private static final long serialVersionUID
-net.fred.feedex.fragment.EntriesListFragment:
+cn.edu.nju.dapenti.fragment.EntriesListFragment:
     private static final java.lang.String STATE_URI
     private static final java.lang.String STATE_SHOW_FEED_INFO
     private static final int LOADER_ID
-net.fred.feedex.fragment.EntriesListFragment$SwipeGestureListener:
+cn.edu.nju.dapenti.fragment.EntriesListFragment$SwipeGestureListener:
     static final int SWIPE_MIN_DISTANCE
     static final int SWIPE_MAX_OFF_PATH
     static final int SWIPE_THRESHOLD_VELOCITY
-net.fred.feedex.parser.OPML:
+cn.edu.nju.dapenti.parser.OPML:
     private static final java.lang.String START
     private static final java.lang.String AFTER_DATE
     private static final java.lang.String OUTLINE_TITLE
@@ -1162,8 +1162,8 @@ net.fred.feedex.parser.OPML:
     private static final java.lang.String FILTER_IS_APPLIED_TO_TITLE
     private static final java.lang.String FILTER_CLOSING
     private static final java.lang.String CLOSING
-    71:71:public OPML()
-net.fred.feedex.parser.OPML$OPMLParser:
+    72:72:public OPML()
+cn.edu.nju.dapenti.parser.OPML$OPMLParser:
     private static final java.lang.String TAG_BODY
     private static final java.lang.String TAG_OUTLINE
     private static final java.lang.String ATTRIBUTE_TITLE
@@ -1173,7 +1173,7 @@ net.fred.feedex.parser.OPML$OPMLParser:
     private static final java.lang.String ATTRIBUTE_TEXT
     private static final java.lang.String ATTRIBUTE_IS_REGEX
     private static final java.lang.String ATTRIBUTE_IS_APPLIED_TO_TITLE
-net.fred.feedex.parser.RssAtomParser:
+cn.edu.nju.dapenti.parser.RssAtomParser:
     private static final java.lang.String AND_SHARP
     private static final java.lang.String HTML_TAG_REGEX
     private static final java.lang.String TAG_RSS
@@ -1204,12 +1204,12 @@ net.fred.feedex.parser.RssAtomParser:
     private static final java.lang.String ATTRIBUTE_TYPE
     private static final java.lang.String ATTRIBUTE_LENGTH
     private static final java.lang.String ATTRIBUTE_REL
-net.fred.feedex.provider.DatabaseHelper:
+cn.edu.nju.dapenti.provider.DatabaseHelper:
     private static final java.lang.String DATABASE_NAME
     private static final int DATABASE_VERSION
     private static final java.lang.String ALTER_TABLE
     private static final java.lang.String ADD
-net.fred.feedex.provider.FeedData:
+cn.edu.nju.dapenti.provider.FeedData:
     public static final java.lang.String CONTENT
     public static final java.lang.String AUTHORITY
     public static final java.lang.String CONTENT_AUTHORITY
@@ -1221,7 +1221,7 @@ net.fred.feedex.provider.FeedData:
     static final java.lang.String TYPE_INT
     static final java.lang.String TYPE_BOOLEAN
     53:53:public FeedData()
-net.fred.feedex.provider.FeedData$EntryColumns:
+cn.edu.nju.dapenti.provider.FeedData$EntryColumns:
     public static final java.lang.String TABLE_NAME
     public static final java.lang.String FEED_ID
     public static final java.lang.String TITLE
@@ -1238,7 +1238,7 @@ net.fred.feedex.provider.FeedData$EntryColumns:
     public static final java.lang.String WHERE_NOT_FAVORITE
     143:143:public FeedData$EntryColumns()
     174:174:public static android.net.Uri ENTRIES_FOR_GROUP_CONTENT_URI(java.lang.String)
-net.fred.feedex.provider.FeedData$FeedColumns:
+cn.edu.nju.dapenti.provider.FeedData$FeedColumns:
     public static final java.lang.String TABLE_NAME
     public static final java.lang.String URL
     public static final java.lang.String NAME
@@ -1253,7 +1253,7 @@ net.fred.feedex.provider.FeedData$FeedColumns:
     public static final java.lang.String FETCH_MODE
     67:67:public FeedData$FeedColumns()
     101:101:public static android.net.Uri GROUPS_CONTENT_URI(java.lang.String)
-net.fred.feedex.provider.FeedData$FilterColumns:
+cn.edu.nju.dapenti.provider.FeedData$FilterColumns:
     public static final java.lang.String TABLE_NAME
     public static final java.lang.String FEED_ID
     public static final java.lang.String FILTER_TEXT
@@ -1261,14 +1261,14 @@ net.fred.feedex.provider.FeedData$FilterColumns:
     public static final java.lang.String IS_APPLIED_TO_TITLE
     121:121:public FeedData$FilterColumns()
     139:139:public static android.net.Uri FILTERS_FOR_FEED_CONTENT_URI(long)
-net.fred.feedex.provider.FeedData$TaskColumns:
+cn.edu.nju.dapenti.provider.FeedData$TaskColumns:
     public static final java.lang.String TABLE_NAME
     public static final java.lang.String ENTRY_ID
     public static final java.lang.String IMG_URL_TO_DL
     public static final java.lang.String NUMBER_ATTEMPT
     200:200:public FeedData$TaskColumns()
     213:213:public static android.net.Uri CONTENT_URI(java.lang.String)
-net.fred.feedex.provider.FeedDataContentProvider:
+cn.edu.nju.dapenti.provider.FeedDataContentProvider:
     public static final int URI_GROUPED_FEEDS
     public static final int URI_GROUPS
     public static final int URI_GROUP
@@ -1289,7 +1289,7 @@ net.fred.feedex.provider.FeedDataContentProvider:
     public static final int URI_TASK
     private static final java.lang.String FEEDS_TABLE_WITH_GROUP_PRIORITY
     private static final java.lang.String ENTRIES_TABLE_WITH_FEED_INFO
-net.fred.feedex.service.FetcherService:
+cn.edu.nju.dapenti.service.FetcherService:
     public static final java.lang.String ACTION_REFRESH_FEEDS
     public static final java.lang.String ACTION_MOBILIZE_FEEDS
     private static final int THREAD_NUMBER
@@ -1305,9 +1305,9 @@ net.fred.feedex.service.FetcherService:
     private static final java.lang.String ENCODING
     private static final java.lang.String SERVICENAME
     private static final java.lang.String URL_SPACE
-net.fred.feedex.service.RefreshService:
+cn.edu.nju.dapenti.service.RefreshService:
     public static final java.lang.String SIXTY_MINUTES
-net.fred.feedex.utils.NetworkUtils:
+cn.edu.nju.dapenti.utils.NetworkUtils:
     public static final java.lang.String PERCENT
     public static final java.lang.String PERCENT_REPLACE
     private static final java.lang.String GZIP
@@ -1315,11 +1315,11 @@ net.fred.feedex.utils.NetworkUtils:
     private static final java.lang.String PROTOCOL_SEPARATOR
     private static final java.lang.String _HTTP
     private static final java.lang.String _HTTPS
-    50:50:public NetworkUtils()
-net.fred.feedex.utils.NetworkUtils$PictureFilenameFilter:
+    51:51:public NetworkUtils()
+cn.edu.nju.dapenti.utils.NetworkUtils$PictureFilenameFilter:
     private static final java.lang.String REGEX
-    70:72:public NetworkUtils$PictureFilenameFilter(java.lang.String)
-net.fred.feedex.utils.PrefUtils:
+    71:73:public NetworkUtils$PictureFilenameFilter(java.lang.String)
+cn.edu.nju.dapenti.utils.PrefUtils:
     public static final java.lang.String FIRST_OPEN
     public static final java.lang.String IS_REFRESHING
     public static final java.lang.String REFRESH_INTERVAL
@@ -1342,9 +1342,9 @@ net.fred.feedex.utils.PrefUtils:
     public static final java.lang.String LAST_SCHEDULED_REFRESH
     public static final java.lang.String SHOW_READ
     28:28:public PrefUtils()
-net.fred.feedex.utils.UiUtils:
+cn.edu.nju.dapenti.utils.UiUtils:
     8:8:public UiUtils()
-net.fred.feedex.widget.WidgetConfigActivity:
+cn.edu.nju.dapenti.widget.WidgetConfigActivity:
     private static final java.lang.String NAME_COLUMN
-net.fred.feedex.widget.WidgetProvider:
+cn.edu.nju.dapenti.widget.WidgetProvider:
     public static final int STANDARD_BACKGROUND

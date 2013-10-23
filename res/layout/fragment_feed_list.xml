@@ -11,7 +11,7 @@
         android:gravity="center"
         android:text="@string/no_feeds" />
 
-    <net.fred.feedex.view.DragNDropExpandableListView
+    <cn.edu.nju.dapenti.view.DragNDropExpandableListView
         android:id="@android:id/list"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
