@@ -65,6 +65,11 @@ import net.fred.feedex.provider.FeedData.FilterColumns;
 import net.fred.feedex.provider.FeedData.TaskColumns;
 import net.fred.feedex.utils.NetworkUtils;
 
+/**
+ * FeedDataContentProvider will match different URI to a specified class to handle the uri
+ * @author jawinton
+ *
+ */
 public class FeedDataContentProvider extends ContentProvider {
 
     public static final int URI_GROUPED_FEEDS = 1;
@@ -117,6 +122,9 @@ public class FeedDataContentProvider extends ContentProvider {
     private DatabaseHelper mDatabaseHelper;
 
     @Override
+    /**
+     * a method called by super class to get mimeType
+     */
     public String getType(Uri uri) {
         int option = URI_MATCHER.match(uri);
 

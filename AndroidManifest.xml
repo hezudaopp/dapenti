@@ -24,6 +24,7 @@
         <service android:name=".service.RefreshService" />
         <service android:name=".service.FetcherService" />
 
+        <!-- providver will map android:authorities to a class, used by Intent -->
         <provider
             android:name=".provider.FeedDataContentProvider"
             android:authorities="net.fred.feedex.provider.FeedData"
@@ -45,6 +46,7 @@
         <activity
             android:name=".activity.EntryActivity"
             android:launchMode="singleTask">
+            <!-- EntryActivity will handle VIEW action of mimetype of vnd.android.cursor.item/vnd.feedex.entry -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />

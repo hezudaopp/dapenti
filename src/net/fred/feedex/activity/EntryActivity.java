@@ -79,6 +79,7 @@ import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebChromeClient;
+import android.webkit.WebSettings.LayoutAlgorithm;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
@@ -461,6 +462,8 @@ public class EntryActivity extends ProgressActivity {
                     webView.getSettings().setBlockNetworkImage(false);
                 }
             }
+            // make image fit width
+            webView.getSettings().setLayoutAlgorithm(LayoutAlgorithm.SINGLE_COLUMN);
 
             String author = entryCursor.getString(authorPosition);
             long timestamp = entryCursor.getLong(datePosition);
@@ -473,8 +476,12 @@ public class EntryActivity extends ProgressActivity {
             // baseUrl = url.getProtocol() + "://" + url.getHost();
             // } catch (MalformedURLException ignored) {
             // }
-            webView.loadDataWithBaseURL("", generateHtmlContent(title, link, contentText, enclosure, author, timestamp), TEXT_HTML, Constants.UTF8,
-                    null); // do not put 'null' to the base url...
+            if (contentText != null && contentText.startsWith("http://")) {
+            	webView.loadUrl(contentText);
+            } else {
+            	webView.loadDataWithBaseURL("", generateHtmlContent(title, link, contentText, enclosure, author, timestamp), TEXT_HTML, Constants.UTF8,
+                        null); // do not put 'null' to the base url...
+            }
 
             // Listen the mobilizing task
             long mobilizingTaskId = FetcherService.getMobilizingTaskId(_id);

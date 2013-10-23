@@ -4,7 +4,7 @@
 	<outline title="喷嚏网" >
 		<outline title="图卦" type="rss" xmlUrl="http://dapenti.com/blog/tuguaapp.asp" />
 		<outline title="段子" type="rss" xmlUrl="http://dapenti.com/blog/duanziapp.asp" />
-		<!-- <outline title="意图" type="rss" xmlUrl="http://dapenti.com/blog/rssapp.asp?name=tupian" />-->
+		<outline title="意图" type="rss" xmlUrl="http://dapenti.com/blog/rssapp.asp?name=tupian" />
 	</outline>
 </body>
 </opml>
