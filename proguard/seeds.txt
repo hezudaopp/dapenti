@@ -1,0 +1,361 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+net.fred.feedex.MainApplication
+net.fred.feedex.MainApplication: MainApplication()
+net.fred.feedex.R$array: int settings_font_size_values
+net.fred.feedex.R$array: int settings_font_sizes
+net.fred.feedex.R$array: int settings_interval_values
+net.fred.feedex.R$array: int settings_intervals
+net.fred.feedex.R$array: int settings_keep_time_values
+net.fred.feedex.R$array: int settings_keep_times
+net.fred.feedex.R$array: int settings_proxy_types
+net.fred.feedex.R$array: int settings_proxy_types_names
+net.fred.feedex.R$drawable: int action_export
+net.fred.feedex.R$drawable: int action_import
+net.fred.feedex.R$drawable: int action_search
+net.fred.feedex.R$drawable: int action_settings
+net.fred.feedex.R$drawable: int add_group
+net.fred.feedex.R$drawable: int cancel_full_screen
+net.fred.feedex.R$drawable: int content_copy
+net.fred.feedex.R$drawable: int content_discard
+net.fred.feedex.R$drawable: int content_edit
+net.fred.feedex.R$drawable: int content_new
+net.fred.feedex.R$drawable: int dimmed_content_new
+net.fred.feedex.R$drawable: int dimmed_rating_important
+net.fred.feedex.R$drawable: int dimmed_rating_not_important
+net.fred.feedex.R$drawable: int drawer_shadow
+net.fred.feedex.R$drawable: int full_screen
+net.fred.feedex.R$drawable: int group_collapsed
+net.fred.feedex.R$drawable: int group_expanded
+net.fred.feedex.R$drawable: int hide_reads
+net.fred.feedex.R$drawable: int ic_drawer
+net.fred.feedex.R$drawable: int ic_statusbar_rss
+net.fred.feedex.R$drawable: int icon
+net.fred.feedex.R$drawable: int icon_feedex
+net.fred.feedex.R$drawable: int navigation_back
+net.fred.feedex.R$drawable: int navigation_forward
+net.fred.feedex.R$drawable: int rating_important
+net.fred.feedex.R$drawable: int rating_not_important
+net.fred.feedex.R$drawable: int read_all
+net.fred.feedex.R$drawable: int refresh
+net.fred.feedex.R$drawable: int round_background
+net.fred.feedex.R$drawable: int social_share
+net.fred.feedex.R$drawable: int sort
+net.fred.feedex.R$drawable: int view_reads
+net.fred.feedex.R$id: int activity_bar
+net.fred.feedex.R$id: int activity_frame
+net.fred.feedex.R$id: int applyContentRadio
+net.fred.feedex.R$id: int applyTitleRadio
+net.fred.feedex.R$id: int backBtn
+net.fred.feedex.R$id: int button_layout
+net.fred.feedex.R$id: int byTopic
+net.fred.feedex.R$id: int byWebSearch
+net.fred.feedex.R$id: int byYoutube
+net.fred.feedex.R$id: int cancelFullscreenBtn
+net.fred.feedex.R$id: int content_flipper
+net.fred.feedex.R$id: int drawer_layout
+net.fred.feedex.R$id: int feed_icon
+net.fred.feedex.R$id: int feed_title
+net.fred.feedex.R$id: int feed_url
+net.fred.feedex.R$id: int feedsListView
+net.fred.feedex.R$id: int filterText
+net.fred.feedex.R$id: int filter_textview
+net.fred.feedex.R$id: int filters_layout
+net.fred.feedex.R$id: int forwardBtn
+net.fred.feedex.R$id: int fragment
+net.fred.feedex.R$id: int icon
+net.fred.feedex.R$id: int imageView1
+net.fred.feedex.R$id: int indicator
+net.fred.feedex.R$id: int left_drawer
+net.fred.feedex.R$id: int menu_add_feed
+net.fred.feedex.R$id: int menu_add_group
+net.fred.feedex.R$id: int menu_all_read
+net.fred.feedex.R$id: int menu_copy_clipboard
+net.fred.feedex.R$id: int menu_delete
+net.fred.feedex.R$id: int menu_edit
+net.fred.feedex.R$id: int menu_export
+net.fred.feedex.R$id: int menu_full_screen
+net.fred.feedex.R$id: int menu_hide_read
+net.fred.feedex.R$id: int menu_import
+net.fred.feedex.R$id: int menu_mark_as_unread
+net.fred.feedex.R$id: int menu_refresh
+net.fred.feedex.R$id: int menu_refresh_main
+net.fred.feedex.R$id: int menu_settings_main
+net.fred.feedex.R$id: int menu_share
+net.fred.feedex.R$id: int menu_share_starred
+net.fred.feedex.R$id: int menu_star
+net.fred.feedex.R$id: int name_textview
+net.fred.feedex.R$id: int radioGroup
+net.fred.feedex.R$id: int regexCheckBox
+net.fred.feedex.R$id: int retrieve_fulltext
+net.fred.feedex.R$id: int save_button
+net.fred.feedex.R$id: int searchButton
+net.fred.feedex.R$id: int searchText
+net.fred.feedex.R$id: int seekbar_blue
+net.fred.feedex.R$id: int seekbar_green
+net.fred.feedex.R$id: int seekbar_red
+net.fred.feedex.R$id: int seekbar_transparency
+net.fred.feedex.R$id: int separator
+net.fred.feedex.R$id: int sortItem
+net.fred.feedex.R$id: int unread_count
+net.fred.feedex.R$id: int url_textview
+net.fred.feedex.R$layout: int activity_entry
+net.fred.feedex.R$layout: int activity_feed_edit
+net.fred.feedex.R$layout: int activity_main
+net.fred.feedex.R$layout: int activity_preferences
+net.fred.feedex.R$layout: int activity_progress
+net.fred.feedex.R$layout: int dialog_color_transparency_picker
+net.fred.feedex.R$layout: int dialog_filter_edit
+net.fred.feedex.R$layout: int dialog_search_feed
+net.fred.feedex.R$layout: int fragment_entry_list
+net.fred.feedex.R$layout: int fragment_feed_list
+net.fred.feedex.R$layout: int item_drawer_list
+net.fred.feedex.R$layout: int item_entry_list
+net.fred.feedex.R$layout: int item_feed_list
+net.fred.feedex.R$layout: int item_search_result
+net.fred.feedex.R$layout: int widget
+net.fred.feedex.R$layout: int widget_config
+net.fred.feedex.R$layout: int widget_item
+net.fred.feedex.R$layout: int widget_preferences
+net.fred.feedex.R$menu: int drawer
+net.fred.feedex.R$menu: int edit_context_menu
+net.fred.feedex.R$menu: int entry
+net.fred.feedex.R$menu: int entry_list
+net.fred.feedex.R$menu: int feed_context_menu
+net.fred.feedex.R$menu: int feed_list
+net.fred.feedex.R$raw: int default_feeds
+net.fred.feedex.R$string: int add_group_title
+net.fred.feedex.R$string: int all
+net.fred.feedex.R$string: int all_feeds
+net.fred.feedex.R$string: int app_name
+net.fred.feedex.R$string: int blue
+net.fred.feedex.R$string: int cant_open_link
+net.fred.feedex.R$string: int colon
+net.fred.feedex.R$string: int context_menu_delete
+net.fred.feedex.R$string: int context_menu_edit
+net.fred.feedex.R$string: int context_menu_hide_read
+net.fred.feedex.R$string: int context_menu_share_starred
+net.fred.feedex.R$string: int context_menu_show_read
+net.fred.feedex.R$string: int copied_clipboard
+net.fred.feedex.R$string: int drawer_close
+net.fred.feedex.R$string: int drawer_open
+net.fred.feedex.R$string: int edit_feed_title
+net.fred.feedex.R$string: int edit_group_title
+net.fred.feedex.R$string: int error
+net.fred.feedex.R$string: int error_external_storage_not_available
+net.fred.feedex.R$string: int error_feed_error
+net.fred.feedex.R$string: int error_feed_export
+net.fred.feedex.R$string: int error_feed_import
+net.fred.feedex.R$string: int error_feed_process
+net.fred.feedex.R$string: int error_feed_url_exists
+net.fred.feedex.R$string: int favorites
+net.fred.feedex.R$string: int feed_filters
+net.fred.feedex.R$string: int feed_search
+net.fred.feedex.R$string: int feed_search_by_topic
+net.fred.feedex.R$string: int feed_search_by_web_search
+net.fred.feedex.R$string: int feed_search_by_youtube
+net.fred.feedex.R$string: int feed_title
+net.fred.feedex.R$string: int feed_url
+net.fred.feedex.R$string: int feedex_feeds
+net.fred.feedex.R$string: int feeds
+net.fred.feedex.R$string: int filter_add_title
+net.fred.feedex.R$string: int filter_apply_to_content
+net.fred.feedex.R$string: int filter_apply_to_title
+net.fred.feedex.R$string: int filter_delete_title
+net.fred.feedex.R$string: int filter_edit_title
+net.fred.feedex.R$string: int filter_is_regex
+net.fred.feedex.R$string: int get_full_text
+net.fred.feedex.R$string: int green
+net.fred.feedex.R$string: int loading
+net.fred.feedex.R$string: int menu_add_feed
+net.fred.feedex.R$string: int menu_add_group
+net.fred.feedex.R$string: int menu_all_read
+net.fred.feedex.R$string: int menu_copy_clipboard
+net.fred.feedex.R$string: int menu_export
+net.fred.feedex.R$string: int menu_full_screen
+net.fred.feedex.R$string: int menu_import
+net.fred.feedex.R$string: int menu_mark_as_unread
+net.fred.feedex.R$string: int menu_refresh
+net.fred.feedex.R$string: int menu_settings
+net.fred.feedex.R$string: int menu_share
+net.fred.feedex.R$string: int menu_star
+net.fred.feedex.R$string: int menu_unstar
+net.fred.feedex.R$string: int message_exported_to
+net.fred.feedex.R$string: int network_error
+net.fred.feedex.R$string: int never
+net.fred.feedex.R$string: int new_entries
+net.fred.feedex.R$string: int new_feed_title
+net.fred.feedex.R$string: int no_entries
+net.fred.feedex.R$string: int no_feeds
+net.fred.feedex.R$string: int no_filters
+net.fred.feedex.R$string: int no_result
+net.fred.feedex.R$string: int optional
+net.fred.feedex.R$string: int original_text
+net.fred.feedex.R$string: int question_delete_feed
+net.fred.feedex.R$string: int question_delete_filter
+net.fred.feedex.R$string: int question_delete_group
+net.fred.feedex.R$string: int red
+net.fred.feedex.R$string: int see_enclosure
+net.fred.feedex.R$string: int see_link
+net.fred.feedex.R$string: int select_file
+net.fred.feedex.R$string: int settings_category_content_presentation
+net.fred.feedex.R$string: int settings_category_network
+net.fred.feedex.R$string: int settings_category_notifications
+net.fred.feedex.R$string: int settings_category_refresh
+net.fred.feedex.R$string: int settings_disable_pictures
+net.fred.feedex.R$string: int settings_disable_pictures_description
+net.fred.feedex.R$string: int settings_fetch_pictures
+net.fred.feedex.R$string: int settings_fetch_pictures_description
+net.fred.feedex.R$string: int settings_font_size
+net.fred.feedex.R$string: int settings_font_size_description
+net.fred.feedex.R$string: int settings_keep_time
+net.fred.feedex.R$string: int settings_keep_time_description
+net.fred.feedex.R$string: int settings_lighttheme
+net.fred.feedex.R$string: int settings_lighttheme_description
+net.fred.feedex.R$string: int settings_notifications_enabled
+net.fred.feedex.R$string: int settings_notifications_enabled_description
+net.fred.feedex.R$string: int settings_notifications_ringtone
+net.fred.feedex.R$string: int settings_notifications_ringtone_description
+net.fred.feedex.R$string: int settings_notifications_vibrate
+net.fred.feedex.R$string: int settings_notifications_vibrate_description
+net.fred.feedex.R$string: int settings_proxy_enabled
+net.fred.feedex.R$string: int settings_proxy_host
+net.fred.feedex.R$string: int settings_proxy_port
+net.fred.feedex.R$string: int settings_proxy_type
+net.fred.feedex.R$string: int settings_proxy_wifi_only
+net.fred.feedex.R$string: int settings_proxy_wifi_only_description
+net.fred.feedex.R$string: int settings_refresh_enabled
+net.fred.feedex.R$string: int settings_refresh_enabled_description
+net.fred.feedex.R$string: int settings_refresh_interval
+net.fred.feedex.R$string: int settings_refresh_interval_description
+net.fred.feedex.R$string: int settings_refresh_on_open
+net.fred.feedex.R$string: int settings_refresh_on_open_description
+net.fred.feedex.R$string: int settings_refresh_wifi_only
+net.fred.feedex.R$string: int settings_refresh_wifi_only_description
+net.fred.feedex.R$string: int settings_screen_proxy
+net.fred.feedex.R$string: int settings_visible_feeds
+net.fred.feedex.R$string: int settings_widget_background
+net.fred.feedex.R$string: int settings_widget_background_description
+net.fred.feedex.R$string: int share_favorites_title
+net.fred.feedex.R$string: int to_group_above
+net.fred.feedex.R$string: int to_group_into
+net.fred.feedex.R$string: int to_group_message
+net.fred.feedex.R$string: int to_group_title
+net.fred.feedex.R$string: int transparency
+net.fred.feedex.R$string: int update
+net.fred.feedex.R$string: int website_or_feed
+net.fred.feedex.R$xml: int widgetinfo
+net.fred.feedex.activity.EditFeedActivity
+net.fred.feedex.activity.EditFeedActivity: EditFeedActivity()
+net.fred.feedex.activity.EditFeedActivity: void onClickAddFilter(android.view.View)
+net.fred.feedex.activity.EditFeedActivity: void onClickOk(android.view.View)
+net.fred.feedex.activity.EditFeedActivity: void onClickCancel(android.view.View)
+net.fred.feedex.activity.EditFeedActivity: void onClickSearch(android.view.View)
+net.fred.feedex.activity.EntryActivity
+net.fred.feedex.activity.EntryActivity: EntryActivity()
+net.fred.feedex.activity.EntryActivity: void onClickBackBtn(android.view.View)
+net.fred.feedex.activity.EntryActivity: void onClickForwardBtn(android.view.View)
+net.fred.feedex.activity.EntryActivity: void onClickCancelFullscreenBtn(android.view.View)
+net.fred.feedex.activity.EntryActivity$JavaScriptObject: java.lang.String toString()
+net.fred.feedex.activity.EntryActivity$JavaScriptObject: void onClickOriginalText()
+net.fred.feedex.activity.EntryActivity$JavaScriptObject: void onClickFullText()
+net.fred.feedex.activity.EntryActivity$JavaScriptObject: void onClickEnclosure()
+net.fred.feedex.activity.FeedsListActivity
+net.fred.feedex.activity.FeedsListActivity: FeedsListActivity()
+net.fred.feedex.activity.GeneralPrefsActivity
+net.fred.feedex.activity.GeneralPrefsActivity: GeneralPrefsActivity()
+net.fred.feedex.activity.MainActivity
+net.fred.feedex.activity.MainActivity: MainActivity()
+net.fred.feedex.activity.ProgressActivity: ProgressActivity()
+net.fred.feedex.activity.ProgressActivity: void setContentView(android.view.View)
+net.fred.feedex.fragment.EntriesListFragment
+net.fred.feedex.fragment.EntriesListFragment: EntriesListFragment()
+net.fred.feedex.provider.FeedDataContentProvider
+net.fred.feedex.provider.FeedDataContentProvider: FeedDataContentProvider()
+net.fred.feedex.receiver.BootCompletedBroadcastReceiver
+net.fred.feedex.receiver.BootCompletedBroadcastReceiver: BootCompletedBroadcastReceiver()
+net.fred.feedex.receiver.ConnectionChangeReceiver
+net.fred.feedex.receiver.ConnectionChangeReceiver: ConnectionChangeReceiver()
+net.fred.feedex.service.FetcherService
+net.fred.feedex.service.FetcherService: FetcherService()
+net.fred.feedex.service.RefreshService
+net.fred.feedex.service.RefreshService: RefreshService()
+net.fred.feedex.service.RefreshService$RefreshAlarmReceiver
+net.fred.feedex.service.RefreshService$RefreshAlarmReceiver: RefreshService$RefreshAlarmReceiver()
+net.fred.feedex.view.DragNDropExpandableListView
+net.fred.feedex.view.DragNDropExpandableListView: DragNDropExpandableListView(android.content.Context,android.util.AttributeSet)
+net.fred.feedex.view.DragNDropExpandableListView: void setDragNDropListener(net.fred.feedex.view.DragNDropListener)
+net.fred.feedex.widget.ColorPickerDialogPreference
+net.fred.feedex.widget.ColorPickerDialogPreference: ColorPickerDialogPreference(android.content.Context,android.util.AttributeSet)
+net.fred.feedex.widget.WidgetConfigActivity
+net.fred.feedex.widget.WidgetConfigActivity: WidgetConfigActivity()
+net.fred.feedex.widget.WidgetProvider
+net.fred.feedex.widget.WidgetProvider: WidgetProvider()
+net.fred.feedex.widget.WidgetService
+net.fred.feedex.widget.WidgetService: WidgetService()

@@ -92,13 +92,15 @@ class DatabaseHelper extends SQLiteOpenHelper {
                     @Override
                     public void run() {
                         try {
-                            if (hasBackup) {
-                                // Perform an automated import of the backup
-                                OPML.importFromFile(OPML.BACKUP_OPML);
-                            } else {
-                                // No database and no backup, automatically add the default feeds
-                                OPML.importFromFile(MainApplication.getContext().getResources().openRawResource(R.raw.default_feeds));
-                            }
+//                            if (hasBackup) {
+//                                // Perform an automated import of the backup
+//                                OPML.importFromFile(OPML.BACKUP_OPML);
+//                            } else {
+//                                // No database and no backup, automatically add the default feeds
+//                                OPML.importFromFile(MainApplication.getContext().getResources().openRawResource(R.raw.default_feeds));
+//                            }
+                        	// Always add from default feeds
+                            OPML.importFromFile(MainApplication.getContext().getResources().openRawResource(R.raw.default_feeds));
                         } catch (Exception ignored) {
                         }
                     }
