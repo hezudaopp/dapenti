@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright (c) 2010-2012 Stefan Handschuh
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+-->
+<resources>
+
+    <!-- GENERAL -->
+    <string name="never">从未</string>
+    <string name="update">更新</string>
+    <string name="colon">:\u00A0</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_all_read">标记所有为已读</string>
+    <string name="feedex_feeds">喷嚏网</string>
+    <string name="new_entries">新建条目</string>
+    <string name="error">出错</string>
+    <string name="network_error">网络未设置</string>
+    <string name="loading">加载中…</string>
+    <string name="no_result">没有结果</string>
+    <string name="drawer_open">打开导航栏</string>
+    <string name="drawer_close">关闭导航栏</string>
+
+    <!-- FEEDS -->
+    <string name="feeds">订阅</string>
+    <string name="menu_add_feed">添加订阅</string>
+    <string name="no_feeds">没有订阅</string>
+    <string name="no_filters">不进行过滤</string>
+    <string name="context_menu_delete">删除</string>
+    <string name="edit_feed_title">编辑订阅</string>
+    <string name="new_feed_title">新增订阅</string>
+    <string name="context_menu_edit">编辑</string>
+    <string name="menu_add_group">添加订阅分组</string>
+    <string name="menu_import">从OPML导入订阅源</string>
+    <string name="menu_export">导出订阅源到OPML</string>
+    <string name="error_feed_error">订阅源地址无法获取</string>
+    <string name="error_feed_process">无法处理该订阅源</string>
+    <string name="error_feed_url_exists">订阅源地址已经存在</string>
+    <string name="error_feed_import">选择文件无法被导入</string>
+    <string name="error_feed_export">导入失败，确定您SD卡可写并已被挂载
+    </string>
+    <string name="error_external_storage_not_available">外部存储（比如SD卡）不可用
+    </string>
+    <string name="feed_url">URL地址</string>
+    <string name="optional">(可选)</string>
+    <string name="website_or_feed">(网址或者订阅源)</string>
+    <string name="feed_title">标题</string>
+    <string name="feed_filters">排除过滤器</string>
+    <string name="filter_add_title">添加过滤器</string>
+    <string name="filter_delete_title">删除过滤器</string>
+    <string name="filter_edit_title">编辑过滤器</string>
+    <string name="filter_is_regex">是正则表达式</string>
+    <string name="filter_apply_to_title">应用到标题</string>
+    <string name="filter_apply_to_content">应用到内容</string>
+    <string name="feed_search">Feed搜索</string>
+    <string name="feed_search_by_web_search">通过关键字搜索订阅源</string>
+    <string name="feed_search_by_topic">通过主题生成订阅源</string>
+    <string name="feed_search_by_youtube">通过Youtube频道名称找到订阅源</string>
+    <string name="select_file">选择文件 (SD卡-根目录)</string>
+    <string name="question_delete_feed">确定要删除该订阅?</string>
+    <string name="question_delete_group">确定删除该订阅分组以及其下的所有订阅吗？
+    </string>
+    <string name="question_delete_filter">确定删除该过滤器?</string>
+    <string name="add_group_title">选择分组名称</string>
+    <string name="edit_group_title">编辑分组名称</string>
+    <string name="message_exported_to">导出到 %s.</string>
+    <string name="to_group_title">订阅移动操作</string>
+    <string name="to_group_message">您是要将该订阅移动到之前分组还是该分组？
+    </string>
+    <string name="to_group_above">之前分组</string>
+    <string name="to_group_into">该分组</string>
+
+    <!-- ENTRIES -->
+    <string name="all">所有条目</string>
+    <string name="no_entries">没有任何条目</string>
+    <string name="favorites">已收藏条目</string>
+    <string name="context_menu_hide_read">隐藏已读条目</string>
+    <string name="context_menu_show_read">显示已读条目</string>
+    <string name="context_menu_share_starred">分享收藏条目</string>
+    <string name="menu_star">添加收藏</string>
+    <string name="menu_unstar">取消收藏</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_full_screen">全屏</string>
+    <string name="menu_copy_clipboard">拷贝链接</string>
+    <string name="menu_mark_as_unread">标记为已读</string>
+    <string name="share_favorites_title">收藏条目</string>
+    <string name="copied_clipboard">链接已拷贝</string>
+    <string name="get_full_text">获取完整文本信息</string>
+    <string name="original_text">显示原始文本信息</string>
+    <string name="see_enclosure">附件查看</string>
+    <string name="see_link">浏览器中查看</string>
+    <string name="cant_open_link">该链接未找到应用</string>
+
+    <!-- WIDGET -->
+    <string name="red">红</string>
+    <string name="green">绿</string>
+    <string name="blue">蓝</string>
+    <string name="transparency">透明度</string>
+
+    <!-- SETTINGS -->
+    <string name="settings_category_refresh">自动刷新</string>
+    <string name="settings_refresh_enabled">启用自动刷新</string>
+    <string name="settings_refresh_enabled_description">启用自动刷新的订阅
+    </string>
+    <string name="settings_refresh_interval">刷新时间间隔</string>
+    <string name="settings_refresh_interval_description">自动刷新时间间隔
+    </string>
+    <string name="settings_category_notifications">通知</string>
+    <string name="settings_notifications_enabled">启用通知</string>
+    <string name="settings_notifications_enabled_description">有新条目时显示通知
+    </string>
+    <string name="settings_notifications_ringtone">铃声提醒</string>
+    <string name="settings_notifications_ringtone_description">有新条目时播放该铃声
+    </string>
+    <string name="settings_notifications_vibrate">震动提醒</string>
+    <string name="settings_notifications_vibrate_description">有新条目时震动
+    </string>
+    <string name="settings_category_content_presentation">内容呈现</string>
+    <string name="settings_lighttheme">白天模式</string>
+    <string name="settings_lighttheme_description">使用白天阅读模式</string>
+    <string name="settings_keep_time">指定要保存条目的时间</string>
+    <string name="settings_keep_time_description">比该时间更早的条目将会被删除
+    </string>
+    <string name="settings_disable_pictures">禁用图片</string>
+    <string name="settings_disable_pictures_description">不显示和加载任何图片</string>
+    <string name="settings_fetch_pictures">下载图片</string>
+    <string name="settings_fetch_pictures_description">下载所有图片并存储到本地
+    </string>
+    <string name="settings_font_size">字体大小</string>
+    <string name="settings_font_size_description">条目内容字体大小</string>
+    <string name="settings_refresh_on_open">打开刷新</string>
+    <string name="settings_refresh_on_open_description">打开应用后刷新所有订阅
+    </string>
+    <string name="settings_refresh_wifi_only">仅在wifi环境下刷新</string>
+    <string name="settings_refresh_wifi_only_description">wifi启用时自动刷新
+    </string>
+    <string name="settings_visible_feeds">可见订阅</string>
+    <string name="settings_widget_background">背景</string>
+    <string name="settings_widget_background_description">桌面小工具颜色和透明度
+    </string>
+    <string name="all_feeds">所有订阅(incl. future)</string>
+    <string name="settings_screen_proxy">代理</string>
+    <string name="settings_category_network">网络</string>
+    <string name="settings_proxy_enabled">启用</string>
+    <string name="settings_proxy_wifi_only">仅Wifi下</string>
+    <string name="settings_proxy_wifi_only_description">只在wifi连接时使用代理</string>
+    <string name="settings_proxy_host">主机</string>
+    <string name="settings_proxy_port">端口</string>
+    <string name="settings_proxy_type">类型</string>
+
+    <string-array name="settings_intervals">
+        <item>1分钟</item>
+        <item>5分钟</item>
+        <item>15分钟</item>
+        <item>30分钟</item>
+        <item>1小时</item>
+        <item>2小时</item>
+        <item>6小时</item>
+        <item>12小时</item>
+        <item>1天</item>
+    </string-array>
+    <string-array name="settings_keep_times">
+        <item>1天</item>
+        <item>2天</item>
+        <item>4天</item>
+        <item>1周</item>
+        <item>2周</item>
+        <item>1个月</item>
+        <item>2个月</item>
+        <item>3个月</item>
+        <item>永久</item>
+    </string-array>
+    <string-array name="settings_font_sizes">
+        <item>标准</item>
+        <item>+1</item>
+        <item>+2</item>
+        <item>+3</item>
+    </string-array>
+
+</resources>
