@@ -89,6 +89,8 @@ import cn.edu.nju.dapenti.R;
 
 import java.util.Date;
 
+import com.baidu.mobads.IconsAd;
+
 import cn.edu.nju.dapenti.Constants;
 import cn.edu.nju.dapenti.provider.FeedData;
 import cn.edu.nju.dapenti.provider.FeedDataContentProvider;
@@ -232,6 +234,10 @@ public class EntryActivity extends ProgressActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         setContentView(R.layout.activity_entry);
+        
+        // Baidu Ads
+        IconsAd iconsAd=new IconsAd(this);
+		iconsAd.loadAd(this);
 
         gestureDetector = new GestureDetector(this, new GestureDetector.SimpleOnGestureListener() {
             @Override

@@ -76,6 +76,8 @@ cn.edu.nju.dapenti.R$array: int settings_keep_time_values
 cn.edu.nju.dapenti.R$array: int settings_keep_times
 cn.edu.nju.dapenti.R$array: int settings_proxy_types
 cn.edu.nju.dapenti.R$array: int settings_proxy_types_names
+cn.edu.nju.dapenti.R$attr: int adId
+cn.edu.nju.dapenti.R$attr: int adSize
 cn.edu.nju.dapenti.R$drawable: int action_export
 cn.edu.nju.dapenti.R$drawable: int action_import
 cn.edu.nju.dapenti.R$drawable: int action_search
@@ -110,6 +112,7 @@ cn.edu.nju.dapenti.R$drawable: int sort
 cn.edu.nju.dapenti.R$drawable: int view_reads
 cn.edu.nju.dapenti.R$id: int activity_bar
 cn.edu.nju.dapenti.R$id: int activity_frame
+cn.edu.nju.dapenti.R$id: int adView
 cn.edu.nju.dapenti.R$id: int applyContentRadio
 cn.edu.nju.dapenti.R$id: int applyTitleRadio
 cn.edu.nju.dapenti.R$id: int backBtn
@@ -310,6 +313,9 @@ cn.edu.nju.dapenti.R$string: int to_group_title
 cn.edu.nju.dapenti.R$string: int transparency
 cn.edu.nju.dapenti.R$string: int update
 cn.edu.nju.dapenti.R$string: int website_or_feed
+cn.edu.nju.dapenti.R$styleable: int[] com_baidu_mobads_AdView
+cn.edu.nju.dapenti.R$styleable: int com_baidu_mobads_AdView_adId
+cn.edu.nju.dapenti.R$styleable: int com_baidu_mobads_AdView_adSize
 cn.edu.nju.dapenti.R$xml: int widgetinfo
 cn.edu.nju.dapenti.activity.EditFeedActivity
 cn.edu.nju.dapenti.activity.EditFeedActivity: EditFeedActivity()
@@ -359,3 +365,22 @@ cn.edu.nju.dapenti.widget.WidgetProvider
 cn.edu.nju.dapenti.widget.WidgetProvider: WidgetProvider()
 cn.edu.nju.dapenti.widget.WidgetService
 cn.edu.nju.dapenti.widget.WidgetService: WidgetService()
+com.baidu.mobads.AdSettings$Education: com.baidu.mobads.AdSettings$Education[] values()
+com.baidu.mobads.AdSettings$Education: com.baidu.mobads.AdSettings$Education valueOf(java.lang.String)
+com.baidu.mobads.AdSettings$Salary: com.baidu.mobads.AdSettings$Salary[] values()
+com.baidu.mobads.AdSettings$Salary: com.baidu.mobads.AdSettings$Salary valueOf(java.lang.String)
+com.baidu.mobads.AdSettings$Sex: com.baidu.mobads.AdSettings$Sex[] values()
+com.baidu.mobads.AdSettings$Sex: com.baidu.mobads.AdSettings$Sex valueOf(java.lang.String)
+com.baidu.mobads.AdSize: com.baidu.mobads.AdSize[] values()
+com.baidu.mobads.AdSize: com.baidu.mobads.AdSize valueOf(java.lang.String)
+com.baidu.mobads.AdView
+com.baidu.mobads.AdView: AdView(android.content.Context)
+com.baidu.mobads.AdView: AdView(android.content.Context,com.baidu.mobads.AdSize,java.lang.String)
+com.baidu.mobads.AdView: AdView(android.content.Context,boolean,com.baidu.mobads.AdSize,java.lang.String)
+com.baidu.mobads.AdView: AdView(android.content.Context,android.util.AttributeSet)
+com.baidu.mobads.AdView: AdView(android.content.Context,android.util.AttributeSet,boolean,com.baidu.mobads.AdSize,java.lang.String)
+com.baidu.mobads.AdView: void setListener(com.baidu.mobads.AdViewListener)
+com.baidu.mobads.AdView: void setAlpha(float)
+com.baidu.mobads.AdView: void setBackgroundColor(int)
+com.baidu.mobads.AppActivity
+com.baidu.mobads.AppActivity: AppActivity()

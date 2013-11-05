@@ -1094,7 +1094,9 @@ cn.edu.nju.dapenti.R$layout
 cn.edu.nju.dapenti.R$menu
 cn.edu.nju.dapenti.R$raw
 cn.edu.nju.dapenti.R$string
+cn.edu.nju.dapenti.R$styleable
 cn.edu.nju.dapenti.R$xml
+cn.edu.nju.dapenti.activity.DemoActivity
 cn.edu.nju.dapenti.activity.EditFeedActivity:
     static final java.lang.String FEED_SEARCH_TITLE
     static final java.lang.String FEED_SEARCH_URL
@@ -1348,3 +1350,22 @@ cn.edu.nju.dapenti.widget.WidgetConfigActivity:
     private static final java.lang.String NAME_COLUMN
 cn.edu.nju.dapenti.widget.WidgetProvider:
     public static final int STANDARD_BACKGROUND
+com.baidu.mobads.AdSettings
+com.baidu.mobads.AdSettings$Education
+com.baidu.mobads.AdSettings$Salary
+com.baidu.mobads.AdSettings$Sex
+com.baidu.mobads.AdView:
+    protected static final java.lang.String P_VERSION
+    protected void prepareForInterstitial(boolean)
+    protected void setInterstialListener(com.baidu.mobads.InterstitialAdListener,com.baidu.mobads.InterstitialAd)
+    public static void setAppSid(android.content.Context,java.lang.String)
+    public static void setAppSec(android.content.Context,java.lang.String)
+com.baidu.mobads.InterstitialAd
+com.baidu.mobads.InterstitialAdListener
+com.baidu.mobads.MultiFuncService
+com.baidu.mobads.a.d:
+    public static int b(java.lang.String)
+    public static int c(java.lang.String,java.lang.Throwable)
+    public static int c(java.lang.Throwable)
+com.baidu.mobads.b
+com.baidu.mobads.c

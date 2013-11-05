@@ -1907,99 +1907,99 @@ cn.edu.nju.dapenti.activity.EntryActivity -> cn.edu.nju.dapenti.activity.EntryAc
     android.view.View$OnTouchListener onTouchListener -> U
     cn.edu.nju.dapenti.utils.ThrottledContentObserver mTasksObserver -> V
     cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject injectedJSObject -> W
-    116:118:android.view.animation.TranslateAnimation generateAnimation(float,float) -> a
-    228:293:void onCreate(android.os.Bundle) -> onCreate
-    297:307:void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
-    311:318:void onRestoreInstanceState(android.os.Bundle) -> onRestoreInstanceState
-    322:336:void onResume() -> onResume
-    340:348:void onPause() -> onPause
-    352:354:void onNewIntent(android.content.Intent) -> onNewIntent
-    357:368:void toggleFullScreen() -> b
-    371:500:void reload(boolean) -> a
-    503:547:java.lang.String generateHtmlContent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,long) -> a
-    553:597:void setupWebview(android.webkit.WebView) -> a
-    601:609:void showEnclosure(android.net.Uri,java.lang.String,int,int) -> a
-    612:646:void setupNavigationButton() -> c
-    649:673:void switchEntry(long,android.view.animation.Animation,android.view.animation.Animation) -> a
-    676:677:void nextEntry() -> d
-    680:681:void previousEntry() -> e
-    685:692:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    697:755:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    760:769:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
-    773:776:void scrollUp() -> f
-    779:782:void scrollDown() -> g
-    790:794:void unregisterReceiver(android.content.BroadcastReceiver) -> unregisterReceiver
-    797:798:void onClickBackBtn(android.view.View) -> onClickBackBtn
-    801:802:void onClickForwardBtn(android.view.View) -> onClickForwardBtn
-    805:806:void onClickCancelFullscreenBtn(android.view.View) -> onClickCancelFullscreenBtn
-    772:772:void access$0(cn.edu.nju.dapenti.activity.EntryActivity) -> a
-    778:778:void access$1(cn.edu.nju.dapenti.activity.EntryActivity) -> b
-    199:199:android.view.GestureDetector access$2(cn.edu.nju.dapenti.activity.EntryActivity) -> c
-    159:159:long access$3(cn.edu.nju.dapenti.activity.EntryActivity) -> d
-    167:167:void access$4(cn.edu.nju.dapenti.activity.EntryActivity,boolean) -> a
-    370:370:void access$5(cn.edu.nju.dapenti.activity.EntryActivity,boolean) -> b
-    164:164:android.net.Uri access$6(cn.edu.nju.dapenti.activity.EntryActivity) -> e
-    156:156:int access$7(cn.edu.nju.dapenti.activity.EntryActivity) -> f
-    208:208:cn.edu.nju.dapenti.utils.ThrottledContentObserver access$8(cn.edu.nju.dapenti.activity.EntryActivity) -> g
-    177:177:java.lang.String access$9(cn.edu.nju.dapenti.activity.EntryActivity) -> h
-    599:599:void access$10(cn.edu.nju.dapenti.activity.EntryActivity,android.net.Uri,java.lang.String,int,int) -> a
-    161:161:long access$11(cn.edu.nju.dapenti.activity.EntryActivity) -> i
-    170:170:android.webkit.WebView access$12(cn.edu.nju.dapenti.activity.EntryActivity) -> j
-    679:679:void access$13(cn.edu.nju.dapenti.activity.EntryActivity) -> k
-    160:160:long access$14(cn.edu.nju.dapenti.activity.EntryActivity) -> l
-    675:675:void access$15(cn.edu.nju.dapenti.activity.EntryActivity) -> m
-    175:175:float access$16(cn.edu.nju.dapenti.activity.EntryActivity) -> n
-    171:171:android.webkit.WebView access$17(cn.edu.nju.dapenti.activity.EntryActivity) -> o
+    118:120:android.view.animation.TranslateAnimation generateAnimation(float,float) -> a
+    230:299:void onCreate(android.os.Bundle) -> onCreate
+    303:313:void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    317:324:void onRestoreInstanceState(android.os.Bundle) -> onRestoreInstanceState
+    328:342:void onResume() -> onResume
+    346:354:void onPause() -> onPause
+    358:360:void onNewIntent(android.content.Intent) -> onNewIntent
+    363:374:void toggleFullScreen() -> b
+    377:506:void reload(boolean) -> a
+    509:553:java.lang.String generateHtmlContent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,long) -> a
+    559:603:void setupWebview(android.webkit.WebView) -> a
+    607:615:void showEnclosure(android.net.Uri,java.lang.String,int,int) -> a
+    618:652:void setupNavigationButton() -> c
+    655:679:void switchEntry(long,android.view.animation.Animation,android.view.animation.Animation) -> a
+    682:683:void nextEntry() -> d
+    686:687:void previousEntry() -> e
+    691:698:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    703:761:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    766:775:boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    779:782:void scrollUp() -> f
+    785:788:void scrollDown() -> g
+    796:800:void unregisterReceiver(android.content.BroadcastReceiver) -> unregisterReceiver
+    803:804:void onClickBackBtn(android.view.View) -> onClickBackBtn
+    807:808:void onClickForwardBtn(android.view.View) -> onClickForwardBtn
+    811:812:void onClickCancelFullscreenBtn(android.view.View) -> onClickCancelFullscreenBtn
+    778:778:void access$0(cn.edu.nju.dapenti.activity.EntryActivity) -> a
+    784:784:void access$1(cn.edu.nju.dapenti.activity.EntryActivity) -> b
+    201:201:android.view.GestureDetector access$2(cn.edu.nju.dapenti.activity.EntryActivity) -> c
+    161:161:long access$3(cn.edu.nju.dapenti.activity.EntryActivity) -> d
+    169:169:void access$4(cn.edu.nju.dapenti.activity.EntryActivity,boolean) -> a
+    376:376:void access$5(cn.edu.nju.dapenti.activity.EntryActivity,boolean) -> b
+    166:166:android.net.Uri access$6(cn.edu.nju.dapenti.activity.EntryActivity) -> e
+    158:158:int access$7(cn.edu.nju.dapenti.activity.EntryActivity) -> f
+    210:210:cn.edu.nju.dapenti.utils.ThrottledContentObserver access$8(cn.edu.nju.dapenti.activity.EntryActivity) -> g
+    179:179:java.lang.String access$9(cn.edu.nju.dapenti.activity.EntryActivity) -> h
+    605:605:void access$10(cn.edu.nju.dapenti.activity.EntryActivity,android.net.Uri,java.lang.String,int,int) -> a
+    163:163:long access$11(cn.edu.nju.dapenti.activity.EntryActivity) -> i
+    172:172:android.webkit.WebView access$12(cn.edu.nju.dapenti.activity.EntryActivity) -> j
+    685:685:void access$13(cn.edu.nju.dapenti.activity.EntryActivity) -> k
+    162:162:long access$14(cn.edu.nju.dapenti.activity.EntryActivity) -> l
+    681:681:void access$15(cn.edu.nju.dapenti.activity.EntryActivity) -> m
+    177:177:float access$16(cn.edu.nju.dapenti.activity.EntryActivity) -> n
+    173:173:android.webkit.WebView access$17(cn.edu.nju.dapenti.activity.EntryActivity) -> o
 cn.edu.nju.dapenti.activity.EntryActivity$1 -> cn.edu.nju.dapenti.activity.l:
     cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
-    186:195:boolean onKey(android.view.View,int,android.view.KeyEvent) -> onKey
+    188:197:boolean onKey(android.view.View,int,android.view.KeyEvent) -> onKey
 cn.edu.nju.dapenti.activity.EntryActivity$2 -> cn.edu.nju.dapenti.activity.m:
     cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
-    204:204:boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    206:206:boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
 cn.edu.nju.dapenti.activity.EntryActivity$3 -> cn.edu.nju.dapenti.activity.n:
     cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
-    211:223:void onChangeThrottled() -> a
+    213:225:void onChangeThrottled() -> a
 cn.edu.nju.dapenti.activity.EntryActivity$4 -> cn.edu.nju.dapenti.activity.o:
     cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
-    239:251:boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+    245:257:boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
 cn.edu.nju.dapenti.activity.EntryActivity$5 -> cn.edu.nju.dapenti.activity.p:
     cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
     android.webkit.WebView val$wv -> b
-    569:583:void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
-    589:594:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
-    566:566:cn.edu.nju.dapenti.activity.EntryActivity access$0(cn.edu.nju.dapenti.activity.EntryActivity$5) -> a
+    575:589:void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    595:600:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    572:572:cn.edu.nju.dapenti.activity.EntryActivity access$0(cn.edu.nju.dapenti.activity.EntryActivity$5) -> a
 cn.edu.nju.dapenti.activity.EntryActivity$5$1 -> cn.edu.nju.dapenti.activity.q:
     cn.edu.nju.dapenti.activity.EntryActivity$5 this$1 -> a
     android.webkit.WebView val$wv -> b
-    575:579:void run() -> run
+    581:585:void run() -> run
 cn.edu.nju.dapenti.activity.EntryActivity$6 -> cn.edu.nju.dapenti.activity.r:
     cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
-    670:671:void run() -> run
+    676:677:void run() -> run
 cn.edu.nju.dapenti.activity.EntryActivity$7 -> cn.edu.nju.dapenti.activity.s:
     cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
-    745:749:void run() -> run
+    751:755:void run() -> run
 cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject -> cn.edu.nju.dapenti.activity.t:
     cn.edu.nju.dapenti.activity.EntryActivity this$0 -> a
-    812:812:java.lang.String toString() -> toString
-    817:824:void onClickOriginalText() -> onClickOriginalText
-    828:871:void onClickFullText() -> onClickFullText
-    875:885:void onClickEnclosure() -> onClickEnclosure
-    808:808:cn.edu.nju.dapenti.activity.EntryActivity access$1(cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject) -> a
+    818:818:java.lang.String toString() -> toString
+    823:830:void onClickOriginalText() -> onClickOriginalText
+    834:877:void onClickFullText() -> onClickFullText
+    881:891:void onClickEnclosure() -> onClickEnclosure
+    814:814:cn.edu.nju.dapenti.activity.EntryActivity access$1(cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject) -> a
 cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject$1 -> cn.edu.nju.dapenti.activity.u:
     cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject this$1 -> a
-    820:822:void run() -> run
+    826:828:void run() -> run
 cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject$2 -> cn.edu.nju.dapenti.activity.v:
     cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject this$1 -> a
-    838:840:void run() -> run
+    844:846:void run() -> run
 cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject$3 -> cn.edu.nju.dapenti.activity.w:
     cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject this$1 -> a
-    857:858:void run() -> run
+    863:864:void run() -> run
 cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject$4 -> cn.edu.nju.dapenti.activity.x:
     cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject this$1 -> a
-    865:866:void run() -> run
+    871:872:void run() -> run
 cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject$5 -> cn.edu.nju.dapenti.activity.y:
     cn.edu.nju.dapenti.activity.EntryActivity$JavaScriptObject this$1 -> a
-    878:883:void run() -> run
+    884:889:void run() -> run
 cn.edu.nju.dapenti.activity.FeedsListActivity -> cn.edu.nju.dapenti.activity.FeedsListActivity:
     59:70:void onCreate(android.os.Bundle) -> onCreate
     74:79:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
@@ -2026,41 +2026,41 @@ cn.edu.nju.dapenti.activity.MainActivity -> cn.edu.nju.dapenti.activity.MainActi
     java.lang.CharSequence mTitle -> g
     android.graphics.drawable.BitmapDrawable mIcon -> h
     int mCurrentDrawerPos -> i
-    82:136:void onCreate(android.os.Bundle) -> onCreate
-    139:156:void refreshTitleAndIcon() -> b
-    160:162:void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
-    166:173:void onResume() -> onResume
-    177:179:void onPause() -> onPause
-    183:192:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    197:215:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    220:274:void selectDrawerItem(int) -> a
-    278:281:void onPostCreate(android.os.Bundle) -> onPostCreate
-    285:287:void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
-    291:298:android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
-    303:318:void onLoadFinished(android.content.Loader,android.database.Cursor) -> a
-    322:322:void onLoaderReset(android.content.Loader) -> onLoaderReset
+    87:145:void onCreate(android.os.Bundle) -> onCreate
+    148:165:void refreshTitleAndIcon() -> b
+    169:171:void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    175:182:void onResume() -> onResume
+    186:188:void onPause() -> onPause
+    192:201:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    206:224:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    229:283:void selectDrawerItem(int) -> a
+    287:290:void onPostCreate(android.os.Bundle) -> onPostCreate
+    294:302:void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    307:314:android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
+    319:334:void onLoadFinished(android.content.Loader,android.database.Cursor) -> a
+    338:338:void onLoaderReset(android.content.Loader) -> onLoaderReset
     1:1:void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
-    219:219:void access$1(cn.edu.nju.dapenti.activity.MainActivity,int) -> a
-    71:71:android.support.v4.widget.DrawerLayout access$2(cn.edu.nju.dapenti.activity.MainActivity) -> a
-    72:72:android.widget.ListView access$3(cn.edu.nju.dapenti.activity.MainActivity) -> b
-    138:138:void access$4(cn.edu.nju.dapenti.activity.MainActivity) -> c
-    78:78:int access$5(cn.edu.nju.dapenti.activity.MainActivity) -> d
+    228:228:void access$1(cn.edu.nju.dapenti.activity.MainActivity,int) -> a
+    76:76:android.support.v4.widget.DrawerLayout access$2(cn.edu.nju.dapenti.activity.MainActivity) -> a
+    77:77:android.widget.ListView access$3(cn.edu.nju.dapenti.activity.MainActivity) -> b
+    147:147:void access$4(cn.edu.nju.dapenti.activity.MainActivity) -> c
+    83:83:int access$5(cn.edu.nju.dapenti.activity.MainActivity) -> d
 cn.edu.nju.dapenti.activity.MainActivity$1 -> cn.edu.nju.dapenti.activity.ac:
     cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
-    64:67:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+    69:72:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
 cn.edu.nju.dapenti.activity.MainActivity$2 -> cn.edu.nju.dapenti.activity.ad:
     cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
-    96:98:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    105:107:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
 cn.edu.nju.dapenti.activity.MainActivity$3 -> cn.edu.nju.dapenti.activity.ae:
     cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
-    107:109:void onDrawerClosed(android.view.View) -> b
-    112:115:void onDrawerOpened(android.view.View) -> a
+    116:118:void onDrawerClosed(android.view.View) -> b
+    121:124:void onDrawerOpened(android.view.View) -> a
 cn.edu.nju.dapenti.activity.MainActivity$4 -> cn.edu.nju.dapenti.activity.af:
     cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
-    270:271:void run() -> run
+    279:280:void run() -> run
 cn.edu.nju.dapenti.activity.MainActivity$5 -> cn.edu.nju.dapenti.activity.ag:
     cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
-    313:315:void run() -> run
+    329:331:void run() -> run
 cn.edu.nju.dapenti.activity.ProgressActivity -> cn.edu.nju.dapenti.activity.ah:
     android.widget.ProgressBar mProgressBar -> a
     15:16:void setContentView(android.view.View) -> setContentView
@@ -2688,3 +2688,155 @@ cn.edu.nju.dapenti.widget.WidgetProvider -> cn.edu.nju.dapenti.widget.WidgetProv
     39:57:void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> onUpdate
 cn.edu.nju.dapenti.widget.WidgetService -> cn.edu.nju.dapenti.widget.WidgetService:
     42:42:android.widget.RemoteViewsService$RemoteViewsFactory onGetViewFactory(android.content.Intent) -> onGetViewFactory
+com.baidu.mobads.AdSize -> com.baidu.mobads.a:
+    com.baidu.mobads.AdSize Banner -> a
+    com.baidu.mobads.AdSize Square -> b
+    com.baidu.mobads.AdSize VideoInterstitial -> c
+    com.baidu.mobads.AdSize VideoPause -> d
+    com.baidu.mobads.AdSize VideoSwitch -> e
+    com.baidu.mobads.AdSize InterstitialGame -> f
+    com.baidu.mobads.AdSize InterstitialReader -> g
+    com.baidu.mobads.AdSize InterstitialLaunch -> h
+    com.baidu.mobads.AdSize InterstitialRefresh -> i
+    com.baidu.mobads.AdSize InterstitialOther -> j
+    int a -> k
+    com.baidu.mobads.AdSize[] b -> l
+    com.baidu.mobads.AdSize[] values() -> values
+    com.baidu.mobads.AdSize valueOf(java.lang.String) -> valueOf
+    int getValue() -> a
+com.baidu.mobads.AdView -> com.baidu.mobads.AdView:
+    android.view.ViewGroup a -> a
+    java.lang.Class b -> b
+    void a(android.content.Context) -> a
+    void setListener(com.baidu.mobads.AdViewListener) -> setListener
+    void setAlpha(float) -> setAlpha
+    void setBackgroundColor(int) -> setBackgroundColor
+com.baidu.mobads.AdViewListener -> com.baidu.mobads.b:
+    void onAdReady(com.baidu.mobads.AdView) -> a
+    void onAdShow(org.json.JSONObject) -> a
+    void onAdClick(org.json.JSONObject) -> b
+    void onAdFailed(java.lang.String) -> a
+    void onAdSwitch() -> a
+    void onVideoStart() -> b
+    void onVideoFinish() -> c
+    void onVideoError() -> d
+    void onVideoClickClose() -> e
+    void onVideoClickAd() -> f
+    void onVideoClickReplay() -> g
+com.baidu.mobads.AppActivity -> com.baidu.mobads.AppActivity:
+    java.lang.Object a -> a
+    java.lang.Class b -> b
+    java.lang.reflect.Method[] c -> c
+    java.lang.reflect.Method a(java.lang.String) -> a
+    void a(java.lang.String,java.lang.Object[]) -> a
+    boolean b(java.lang.String,java.lang.Object[]) -> b
+    java.lang.Object c(java.lang.String,java.lang.Object[]) -> c
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    boolean dispatchTouchEvent(android.view.MotionEvent) -> dispatchTouchEvent
+    boolean dispatchTrackballEvent(android.view.MotionEvent) -> dispatchTrackballEvent
+    void finalize() -> finalize
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onApplyThemeResource(android.content.res.Resources$Theme,int,boolean) -> onApplyThemeResource
+    void onChildTitleChanged(android.app.Activity,java.lang.CharSequence) -> onChildTitleChanged
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onContentChanged() -> onContentChanged
+    boolean onContextItemSelected(android.view.MenuItem) -> onContextItemSelected
+    void onContextMenuClosed(android.view.Menu) -> onContextMenuClosed
+    void onCreate(android.os.Bundle) -> onCreate
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    java.lang.CharSequence onCreateDescription() -> onCreateDescription
+    android.app.Dialog onCreateDialog(int) -> onCreateDialog
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onCreatePanelMenu(int,android.view.Menu) -> onCreatePanelMenu
+    android.view.View onCreatePanelView(int) -> onCreatePanelView
+    boolean onCreateThumbnail(android.graphics.Bitmap,android.graphics.Canvas) -> onCreateThumbnail
+    android.view.View onCreateView(java.lang.String,android.content.Context,android.util.AttributeSet) -> onCreateView
+    void onDestroy() -> onDestroy
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onKeyMultiple(int,int,android.view.KeyEvent) -> onKeyMultiple
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    void onLowMemory() -> onLowMemory
+    boolean onMenuItemSelected(int,android.view.MenuItem) -> onMenuItemSelected
+    boolean onMenuOpened(int,android.view.Menu) -> onMenuOpened
+    void onNewIntent(android.content.Intent) -> onNewIntent
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onOptionsMenuClosed(android.view.Menu) -> onOptionsMenuClosed
+    void onPanelClosed(int,android.view.Menu) -> onPanelClosed
+    void onPause() -> onPause
+    void onPostCreate(android.os.Bundle) -> onPostCreate
+    void onPostResume() -> onPostResume
+    void onPrepareDialog(int,android.app.Dialog) -> onPrepareDialog
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    boolean onPreparePanel(int,android.view.View,android.view.Menu) -> onPreparePanel
+    void onRestart() -> onRestart
+    void onRestoreInstanceState(android.os.Bundle) -> onRestoreInstanceState
+    void onResume() -> onResume
+    java.lang.Object onRetainNonConfigurationInstance() -> onRetainNonConfigurationInstance
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    boolean onSearchRequested() -> onSearchRequested
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void onTitleChanged(java.lang.CharSequence,int) -> onTitleChanged
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean onTrackballEvent(android.view.MotionEvent) -> onTrackballEvent
+    void onUserInteraction() -> onUserInteraction
+    void onUserLeaveHint() -> onUserLeaveHint
+    void onWindowAttributesChanged(android.view.WindowManager$LayoutParams) -> onWindowAttributesChanged
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+com.baidu.mobads.IconsAd -> com.baidu.mobads.c:
+    java.lang.Class a -> a
+    java.lang.Object b -> b
+    void loadAd(android.app.Activity) -> a
+com.baidu.mobads.a -> com.baidu.mobads.d:
+    com.baidu.mobads.AdViewListener a -> a
+    com.baidu.mobads.AdView b -> b
+    boolean handleMessage(android.os.Message) -> handleMessage
+com.baidu.mobads.a.a -> com.baidu.mobads.a.a:
+    boolean a -> a
+    int b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+    boolean g -> g
+com.baidu.mobads.a.b -> com.baidu.mobads.a.b:
+    java.net.Proxy a -> a
+    java.net.Proxy b -> b
+    java.lang.ClassLoader c -> c
+    java.util.concurrent.atomic.AtomicBoolean d -> d
+    boolean e -> e
+    boolean a(java.lang.String) -> a
+    boolean a(boolean,android.content.Context,java.net.URL,java.lang.String) -> a
+    boolean b(boolean,android.content.Context,java.net.URL,java.lang.String) -> b
+    java.net.HttpURLConnection a(android.content.Context,java.net.URL) -> a
+    java.net.HttpURLConnection c(android.content.Context,java.lang.String) -> c
+    java.net.HttpURLConnection a(android.content.Context,java.lang.String,int,int) -> a
+    java.lang.String a(android.content.Context,java.lang.String) -> a
+    java.lang.String b(android.content.Context,java.lang.String,int,int) -> b
+    java.lang.String d(android.content.Context,java.lang.String) -> d
+    java.lang.ClassLoader a(android.content.Context) -> a
+    void b(android.content.Context) -> b
+    java.lang.Class b(android.content.Context,java.lang.String) -> b
+    boolean a(boolean) -> a
+com.baidu.mobads.a.c -> com.baidu.mobads.a.c:
+    java.io.File a -> a
+    android.content.Context b -> b
+    void run() -> run
+com.baidu.mobads.a.d -> com.baidu.mobads.a.d:
+    java.text.SimpleDateFormat a -> a
+    void a() -> a
+    void a(java.lang.String,java.lang.String) -> a
+    void a(java.lang.String,java.lang.String,java.lang.Throwable) -> a
+    boolean a(java.lang.String,int) -> a
+    boolean a(int) -> a
+    java.lang.String d(java.lang.Object[]) -> d
+    int a(java.lang.Throwable) -> a
+    int a(java.lang.String,java.lang.Throwable) -> a
+    int a(java.lang.Object[]) -> a
+    int a(java.lang.String) -> a
+    int b(java.lang.Throwable) -> b
+    int b(java.lang.String,java.lang.Throwable) -> b
+    int b(java.lang.Object[]) -> b
+    int c(java.lang.String) -> b
+    int d(java.lang.String) -> c
+    int c(java.lang.Object[]) -> c

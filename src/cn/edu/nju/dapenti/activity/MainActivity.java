@@ -19,6 +19,8 @@
 
 package cn.edu.nju.dapenti.activity;
 
+import com.baidu.mobads.IconsAd;
+
 import cn.edu.nju.dapenti.Constants;
 import cn.edu.nju.dapenti.MainApplication;
 import cn.edu.nju.dapenti.adapter.DrawerAdapter;
@@ -43,6 +45,7 @@ import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -55,6 +58,8 @@ import cn.edu.nju.dapenti.R;
 public class MainActivity extends ProgressActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 
     private static final String STATE_CURRENT_DRAWER_POS = "STATE_CURRENT_DRAWER_POS";
+    // Baidu Ads
+//    final protected String TAG = "Baidu SDK Demo";
 
     private static final int LOADER_ID = 0;
 
@@ -83,6 +88,10 @@ public class MainActivity extends ProgressActivity implements LoaderManager.Load
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+        
+        // Baidu Ads
+//        IconsAd iconsAd=new IconsAd(this);
+//		iconsAd.loadAd(this);
 
         mEntriesFragment = (EntriesListFragment) getFragmentManager().findFragmentById(R.id.fragment);
 
@@ -283,8 +292,15 @@ public class MainActivity extends ProgressActivity implements LoaderManager.Load
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
+        // Baidu Ads
+//        if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
+//        	Log.w(TAG, "ORIENTATION_LANDSCAPE");
+//        }else{
+//        	Log.w(TAG, "Configuration.ORIENTATION_PORTRAIT");
+//        }
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
+
 
     @Override
     public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {

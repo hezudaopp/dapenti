@@ -29,7 +29,7 @@
     <string name="menu_refresh">刷新</string>
     <string name="menu_all_read">标记所有为已读</string>
     <string name="feedex_feeds">喷嚏网</string>
-    <string name="new_entries">新建条目</string>
+    <string name="new_entries">有新条目</string>
     <string name="error">出错</string>
     <string name="network_error">网络未设置</string>
     <string name="loading">加载中…</string>
