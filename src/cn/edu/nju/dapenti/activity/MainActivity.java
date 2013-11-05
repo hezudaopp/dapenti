@@ -19,8 +19,6 @@
 
 package cn.edu.nju.dapenti.activity;
 
-import com.baidu.mobads.IconsAd;
-
 import cn.edu.nju.dapenti.Constants;
 import cn.edu.nju.dapenti.MainApplication;
 import cn.edu.nju.dapenti.adapter.DrawerAdapter;
@@ -45,7 +43,6 @@ import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;

@@ -2026,41 +2026,41 @@ cn.edu.nju.dapenti.activity.MainActivity -> cn.edu.nju.dapenti.activity.MainActi
     java.lang.CharSequence mTitle -> g
     android.graphics.drawable.BitmapDrawable mIcon -> h
     int mCurrentDrawerPos -> i
-    87:145:void onCreate(android.os.Bundle) -> onCreate
-    148:165:void refreshTitleAndIcon() -> b
-    169:171:void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
-    175:182:void onResume() -> onResume
-    186:188:void onPause() -> onPause
-    192:201:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    206:224:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    229:283:void selectDrawerItem(int) -> a
-    287:290:void onPostCreate(android.os.Bundle) -> onPostCreate
-    294:302:void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
-    307:314:android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
-    319:334:void onLoadFinished(android.content.Loader,android.database.Cursor) -> a
-    338:338:void onLoaderReset(android.content.Loader) -> onLoaderReset
+    84:142:void onCreate(android.os.Bundle) -> onCreate
+    145:162:void refreshTitleAndIcon() -> b
+    166:168:void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    172:179:void onResume() -> onResume
+    183:185:void onPause() -> onPause
+    189:198:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    203:221:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    226:280:void selectDrawerItem(int) -> a
+    284:287:void onPostCreate(android.os.Bundle) -> onPostCreate
+    291:299:void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    304:311:android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
+    316:331:void onLoadFinished(android.content.Loader,android.database.Cursor) -> a
+    335:335:void onLoaderReset(android.content.Loader) -> onLoaderReset
     1:1:void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
-    228:228:void access$1(cn.edu.nju.dapenti.activity.MainActivity,int) -> a
-    76:76:android.support.v4.widget.DrawerLayout access$2(cn.edu.nju.dapenti.activity.MainActivity) -> a
-    77:77:android.widget.ListView access$3(cn.edu.nju.dapenti.activity.MainActivity) -> b
-    147:147:void access$4(cn.edu.nju.dapenti.activity.MainActivity) -> c
-    83:83:int access$5(cn.edu.nju.dapenti.activity.MainActivity) -> d
+    225:225:void access$1(cn.edu.nju.dapenti.activity.MainActivity,int) -> a
+    73:73:android.support.v4.widget.DrawerLayout access$2(cn.edu.nju.dapenti.activity.MainActivity) -> a
+    74:74:android.widget.ListView access$3(cn.edu.nju.dapenti.activity.MainActivity) -> b
+    144:144:void access$4(cn.edu.nju.dapenti.activity.MainActivity) -> c
+    80:80:int access$5(cn.edu.nju.dapenti.activity.MainActivity) -> d
 cn.edu.nju.dapenti.activity.MainActivity$1 -> cn.edu.nju.dapenti.activity.ac:
     cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
-    69:72:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+    66:69:void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
 cn.edu.nju.dapenti.activity.MainActivity$2 -> cn.edu.nju.dapenti.activity.ad:
     cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
-    105:107:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    102:104:void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
 cn.edu.nju.dapenti.activity.MainActivity$3 -> cn.edu.nju.dapenti.activity.ae:
     cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
-    116:118:void onDrawerClosed(android.view.View) -> b
-    121:124:void onDrawerOpened(android.view.View) -> a
+    113:115:void onDrawerClosed(android.view.View) -> b
+    118:121:void onDrawerOpened(android.view.View) -> a
 cn.edu.nju.dapenti.activity.MainActivity$4 -> cn.edu.nju.dapenti.activity.af:
     cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
-    279:280:void run() -> run
+    276:277:void run() -> run
 cn.edu.nju.dapenti.activity.MainActivity$5 -> cn.edu.nju.dapenti.activity.ag:
     cn.edu.nju.dapenti.activity.MainActivity this$0 -> a
-    329:331:void run() -> run
+    326:328:void run() -> run
 cn.edu.nju.dapenti.activity.ProgressActivity -> cn.edu.nju.dapenti.activity.ah:
     android.widget.ProgressBar mProgressBar -> a
     15:16:void setContentView(android.view.View) -> setContentView
